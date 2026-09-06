@@ -18,6 +18,21 @@ O vocabulário deste domínio está em `CONTEXT.md`. As decisões de desenho est
 detecção de drift). Páginas curadas carregam `confidence: high|medium|low` (high = DJE/DOU
 nomeado; medium = compilado sem DJE; low = monitoramento sem confirmação).
 
+## Exemplos de uso
+
+### TRE-PR
+- "Qual a penalidade para vazamento de dados no TRE-PR?" → ver [[normas/anpd-resolucao-15-2024-incidente-seguranca]] e [[normas/anpd-resolucao-04-2023-dosimetria-sancoes]]
+- "Quem é o encarregado do TRE-PR?" → ver [[entities/encarregado-dpo]] e [[normas/anpd-resolucao-18-2024-encarregado]]
+- "Qual o prazo para comunicar um incidente?" → ver [[normas/anpd-resolucao-15-2024-incidente-seguranca]] (art. 6º)
+- "O que é o CETI?" → ver [[entities/ceti]] e [[normas/tre-pr-portaria-dg-124-2026-ceti-atribuicoes]]
+- "O que é o CGERI?" → ver [[entities/cgeri]] e [[normas/tre-pr-resolucao-980-2026-altera-cgeri]]
+- "Posso usar legítimo interesse para marketing?" → ver [[normas/anpd-guia-legitimo-interesse-2024]]
+
+### ANPD
+- "Posso transferir dados para a Europa?" → ver [[normas/anpd-resolucao-32-2026-adequacao-ue]] e [[normas/anpd-resolucao-19-2024-rtid]]
+- "Qual a multa por descumprimento da LGPD?" → ver [[normas/anpd-resolucao-04-2023-dosimetria-sancoes]]
+- "O que é legítimo interesse?" → ver [[normas/anpd-guia-legitimo-interesse-2024]]
+
 ## Escopo
 
 O acervo é de **normas internas do TRE-PR e da JE**, de qualquer tema — inclui normas sem

@@ -1,4 +1,11 @@
 
+## [2026-09-04] audit | Auditoria completa do vault
+- Relatório: wiki/_meta/relatorio-auditoria-20260904.md
+- Resultado: 230 páginas curadas, 188 raws, cobertura 100%, 0 duplicatas, 0 drift de conteúdo
+- 187 normas: 155 vigentes, 19 revogadas, 12 históricas, 1 não-aplicável
+- Build drift: 0 (só link rewriting esperado)
+- Hash drift: 0/11 raws ANPD verificados
+
 ## [2026-09-04] ingest | Regulamentações ANPD — scraping + curadoria completa
 - **Scraping** da página oficial de Regulamentações da ANPD (gov.br) — 17 atos identificados (13 Resoluções, 3 Portarias, 1 Enunciado)
 - **Raws criados** (11 novos em `references/raw/anpd-*.md`):

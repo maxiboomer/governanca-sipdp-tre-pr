@@ -9,10 +9,10 @@ curadoria: completa
 escopo: contextual
 ---
 
-# CGSIPDP - Comitê Gestor de SI e de Proteção de Dados Pessoais do TRE-PR
+# CGSIPDP - Comitê Gestor de Segurança da Informação e Proteção de Dados Pessoais do TRE-PR
 
 ## O que é
-O CGSIPDP é o comitê central de segurança da informação e proteção de dados pessoais no Tribunal de Justiça do Paraná, criado para coordenar as ações de SI e LGPD.
+O CGSIPDP é o comitê central de segurança da informação e proteção de dados pessoais no **Tribunal Regional Eleitoral do Paraná (TRE-PR)**, criado para coordenar as ações de SI e LGPD.
 
 ## Estrutura
 - **Presidente do CGSIPDP** - Coordenação geral
