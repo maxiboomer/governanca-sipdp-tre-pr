@@ -4,14 +4,17 @@ Catálogo de todas as páginas do vault. Atualizado em 2026-08-06 após criaçã
 Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáveis) → `references/sources/` (síntese) → `references/{entities,concepts,normas,inventarios}` (páginas curadas).
 
 ## Entities
-- [[references/entities/anpd|ANPD - Autoridade Nacional de Proteção de Dados Pessoais]]
 - [[references/entities/agm|AGM - Assessoria Técnica de Governança e Monitoramento da SI]]
+- [[references/entities/anpd|ANPD - Autoridade Nacional de Proteção de Dados Pessoais]]
 - [[references/entities/asc|ASC - Assessoria de Comunicação Social]]
-- [[references/entities/secti|SECTI - Secretaria de Tecnologia da Informação]]
-- [[references/entities/cgsipdp|CGSIPDP - Comitê Gestor de SI e de Proteção de Dados Pessoais do TRE-PR]]
+- [[references/entities/ceti|CETI - Comitê Executivo de TI (Portaria 124/2026)]]
+- [[references/entities/cger|CGER - Comitê de Gestão Estratégica e Riscos (Portaria 296/2025)]]
+- [[references/entities/cgsipdp|CGSIPDP - Comitê Gestor de SI e de Proteção de Dados Pessoais (Portaria 296/2025)]]
+- [[references/entities/cgti|CGTI - Comitê de Gestão da TI (Portaria 296/2025)]]
 - [[references/entities/csi-unidade-si|CSI e Unidade de Segurança da Informação da PSI Nacional]]
 - [[references/entities/encarregado-dpo|Encarregado DPO]]
 - [[references/entities/etir|ETIR - Equipe de Tratamento e Resposta a Incidentes]]
+- [[references/entities/secti|SECTI - Secretaria de Tecnologia da Informação]]
 
 ## Concepts
 - [[references/concepts/governanca-ti|Governança de TI no TRE-PR (CETI e comitês)]]

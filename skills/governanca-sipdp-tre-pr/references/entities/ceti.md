@@ -39,5 +39,6 @@ O **CETI** (Comitê Executivo de Tecnologia da Informação) é o órgão colegi
 ## Relacionamentos
 - [[normas/tre-pr-portaria-dg-124-2026-ceti-atribuicoes]] — Norma que fixa atribuições
 - [[entities/secti]] — Secretaria de TI (secretaria executiva do CETI)
+- [[entities/cgti]] — Comitê de Gestão da TI (deliberativo, distinto do CETI)
 - [[entities/cgsipdp]] — Comitê Gestor de SI e Proteção de Dados
 - [[entities/agm]] — Assessoria de Governança e Monitoramento

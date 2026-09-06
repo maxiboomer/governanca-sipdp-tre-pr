@@ -24,9 +24,17 @@ nomeado; medium = compilado sem DJE; low = monitoramento sem confirmação).
 - "Qual a penalidade para vazamento de dados no TRE-PR?" → ver [[normas/anpd-resolucao-15-2024-incidente-seguranca]] e [[normas/anpd-resolucao-04-2023-dosimetria-sancoes]]
 - "Quem é o encarregado do TRE-PR?" → ver [[entities/encarregado-dpo]] e [[normas/anpd-resolucao-18-2024-encarregado]]
 - "Qual o prazo para comunicar um incidente?" → ver [[normas/anpd-resolucao-15-2024-incidente-seguranca]] (art. 6º)
-- "O que é o CETI?" → ver [[entities/ceti]] e [[normas/tre-pr-portaria-dg-124-2026-ceti-atribuicoes]]
-- "O que é o CGERI?" → ver [[entities/cgeri]] e [[normas/tre-pr-resolucao-980-2026-altera-cgeri]]
+- "O que é o CETI?" → ver [[entities/ceti]] (comitê executivo, 12 atribuições, Portaria 124/2026)
+- "O que é o CGTI?" → ver [[entities/cgti]] (comitê deliberativo, 16 integrantes, Portaria 296/2025)
+- "O que é o CGER?" → ver [[entities/cger]] (estratégia + riscos, AGEP como presidente, Portaria 296/2025)
+- "O que é o CGSIPDP?" → ver [[entities/cgsipdp]] (SI + LGPD, SECTI como presidente, Portaria 296/2025)
 - "Posso usar legítimo interesse para marketing?" → ver [[normas/anpd-guia-legitimo-interesse-2024]]
+
+### Distinção de comitês (evitar confusão)
+- **CETI** (Comitê Executivo de TI) — órgão operacional, 12 atribuições, reuniões quinzenais
+- **CGTI** (Comitê de Gestão da TI) — órgão deliberativo, 16 integrantes, define diretrizes de SI
+- **CGER** (Comitê de Gestão Estratégica e Riscos) — 14 integrantes, AGEP como presidente
+- **CGSIPDP** (Comitê Gestor de SI e PDP) — 17 integrantes, SI + LGPD
 
 ### ANPD
 - "Posso transferir dados para a Europa?" → ver [[normas/anpd-resolucao-32-2026-adequacao-ue]] e [[normas/anpd-resolucao-19-2024-rtid]]
