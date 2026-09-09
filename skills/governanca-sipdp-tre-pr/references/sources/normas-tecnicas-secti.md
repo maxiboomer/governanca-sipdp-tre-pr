@@ -14,7 +14,7 @@ escopo: contextual
 
 ## Summary
 
-Normas Técnicas da SECTI (processos de TI: gestão de serviços, continuidade, riscos, nuvem, MDS). Coletadas automaticamente em 06/08/2026 a partir do acervo compilado oficial dos portais
+Normas Técnicas da SECTI (processos de TI: gestão de serviços, continuidade, riscos, nuvem, MDS, pentest). Coletadas automaticamente em 06/08/2026 a partir do acervo compilado oficial dos portais
 [[references/inventarios/normas-tre-pr-tse|inventário SECTI]] do TRE-PR/TSE. Total de 25 documentos.
 
 ## Key Takeaways
@@ -25,6 +25,7 @@ Normas Técnicas da SECTI (processos de TI: gestão de serviços, continuidade, 
 
 ## Documentos (25)
 
+- [[raw/tre-pr-nt-secti-norma-tecnica-006-de-28-de-agosto-de-2026|NORMA TÉCNICA Nº 006, DE 28 DE AGOSTO DE 2026. — Testes de Penetração (Pentest)]]
 - [[raw/tre-pr-nt-secti-norma-tecnica-003-de-06-de-abril-de-2026|NORMA TÉCNICA N° 003, DE 06 DE ABRIL DE 2026. — Tribunal Regional Eleitoral do Paraná]]
 - [[raw/tre-pr-nt-secti-norma-tecnica-004-de-15-de-abril-de-2026|NORMA TÉCNICA N° 004, DE 15 DE ABRIL DE 2026. — Tribunal Regional Eleitoral do Paraná]]
 - [[raw/tre-pr-nt-secti-norma-tecnica-01-de-04-de-fevereiro-de-2026|NORMA TÉCNICA Nº 001, DE 04 DE FEVEREIRO DE 2026. — Tribunal Regional Eleitoral do Paraná]]

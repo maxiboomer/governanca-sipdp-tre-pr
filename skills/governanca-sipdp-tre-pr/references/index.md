@@ -102,6 +102,7 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 - [[references/normas/tre-pr-nt-secti-norma-tecnica-003-de-06-de-abril-de-2026|NORMA TÉCNICA N° 003, DE 06 DE ABRIL DE 2026. — Tribunal Regional Eleitoral do Paraná]]
 - [[references/normas/tre-pr-nt-secti-norma-tecnica-004-de-15-de-abril-de-2026|NORMA TÉCNICA N° 004, DE 15 DE ABRIL DE 2026. — Tribunal Regional Eleitoral do Paraná]]
 - [[references/normas/tre-pr-nt-secti-norma-tecnica-005-de-05-de-agosto-de-2026|NT SECTI 005/2026 — Linux em estações de trabalho]]
+- [[references/normas/tre-pr-nt-secti-norma-tecnica-006-de-28-de-agosto-de-2026|NT SECTI 006/2026 — Testes de Penetração (Pentest)]]
 - [[references/normas/tse-portaria-143-2026-uso-software-nuvem|Portaria TSE 143/2026 — Uso de software e nuvem]]
 - [[references/normas/tre-pr-portaria-276-2026-altera-74-2025|Portaria TRE-PR 276/2026 — Altera 74/2025, revoga 135/2025]]
 - [[references/normas/tse-portaria-463-2026-planos-conformidade|Portaria TSE 463/2026 — Planos de conformidade plataformas digitais]]
@@ -226,11 +227,13 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 - [[references/comparisons/controle-acesso-in004-2025-vs-2022-vs-2018|Controle de Acesso: IN 004/2025 × IN 004/2022 × IN-DG 2018]]
 
 ## Estatísticas
-- Fontes brutas em `references/raw/`: 188 arquivos raw `.md` (todos com `sha256:` desde 2026-09-04)
-- Páginas curadas em `references/normas/`: 186 (uma para cada norma em raw/)
-- Entities: 8 · Concepts: 14 · Comparisons: 2 · Inventários: 5 · Sources: 7
+- Fontes brutas em `references/raw/`: 191 arquivos raw `.md` (todos com `sha256:`)
+- Páginas curadas em `references/normas/`: 190 (uma para cada norma)
+- Entities: 11 · Concepts: 14 · Comparisons: 2 · Inventários: 5 · Sources: 7
 
 ## Normas (novas)
+- [[references/normas/tre-pr-in-instrucao-normativa-001-de-24-de-agosto-de-2026-acompvot|IN TRE-PR 001/2026 — Sistema AcompVot (Eleições 2026)]]
+- [[references/normas/tre-pr-portaria-dg-085-2026-redesigna-cgti|Portaria DG TRE-PR 085/2026 — Redesigna membros do CGTI]]
 - [[references/normas/anpd-guia-legitimo-interesse-2024|ANPD Guia: Legítimo Interesse (fev/2024)]]
 - [[references/normas/anpd-guia-tratamento-dados-poder-publico-2023|ANPD Guia: Tratamento de Dados pelo Poder Público (jun/2023)]]
 - [[references/normas/anpd-resolucao-01-2021-fiscalizacao-sancionador|Res. CD/ANPD 01/2021 — Processo de Fiscalização e Sancionador]]
@@ -254,8 +257,10 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 ## Metadados
 - [[references/_meta/auditoria-changelog-normas-eleitorais|Changelog — skill analise-normas-eleitorais]]
 - [[references/_meta/classificacao-normas|Classificação das normas]]
+- [[references/_meta/criterio-escopo|Critério de escopo do acervo SI/PDP]]
 - [[references/_meta/mapa-tematico|Mapa temático]]
 - [[references/_meta/matriz-verificacao-vigencia|Matriz de verificação de vigência]]
 - [[references/_meta/pendencias-curadoria|Pendências de curadoria]]
 - [[references/_meta/relatorio-qualidade|Relatório de qualidade]]
 - [[references/_meta/relatorio-monitoramento|Relatório de monitoramento normativo]]
+- [[references/_meta/relatorio-auditoria-20260904|Relatório de auditoria do vault (2026-09-04)]]

@@ -1,7 +1,7 @@
 ---
 title: "Relatório de Monitoramento Normativo"
 created: 2026-08-26
-updated: 2026-08-26
+updated: 2026-09-09
 type: metadata
 status: não-aplicável
 curadoria: completa
@@ -91,7 +91,7 @@ obras, comunicação social). Ficam fora da camada de curadoria.
 ### Fora de escopo (verificadas, não adicionadas)
 
 - Res. TRE-PR 984–987/2026 (Plano de Obras, plebiscito, eleição suplementar) — administrativo/eleitoral.
-- IN TRE-PR 001/2026 (Sistema AcompVot) — tecnologia eleitoral operacional; decisão conservadora: fora do escopo SI/PDP estrito (análogo às comissões de auditoria de votação, excluídas na rodada anterior). **Pendente de revisão humana.**
+- IN TRE-PR 001/2026 (Sistema AcompVot) — inicialmente marcada "fora do escopo"; **integrada em 2026-09-09 como `contextual`** (a premissa de que auditorias de votação haviam sido excluídas era falsa). Ver ADR 0005.
 - TSE 334/2026 (acesso ao CT-TSE) e TSE 527/2026 (Sala Nacional de Situação Climática) — fora de escopo.
 - Demais Portarias DG/Presidência 2026 (designações de chefia, teletrabalho, lotações) — pessoal, sem teor de SI/PDP.
 
@@ -128,7 +128,7 @@ obras, comunicação social). Ficam fora da camada de curadoria.
 
 ### Decisão de escopo registrada
 
-- **IN TRE-PR 001/2026 (Sistema AcompVot)** — **mantida FORA do escopo SI/PDP estrito**: é tecnologia eleitoral operacional (acompanhamento da votação), sem teor de segurança da informação/proteção de dados/governança de TI. Decisão revisada e confirmada nesta rodada; não será adicionada ao acervo. Registro encerra a pendência de revisão humana.
+- **IN TRE-PR 001/2026 (Sistema AcompVot)** — decisão da rodada 2026-08-31 que a mantinha **fora do escopo** como "tecnologia eleitoral operacional, sem teor de SI/PDP" foi **REVISTA E CORRIGIDA em 2026-09-09**. A premissa era falsa: as resoluções de auditoria de funcionamento das urnas (Res. 893/2022 e 934/2024) **estão curadas** no acervo com `escopo: contextual`, e a IN contém proteções transversais de SI/LGPD (art. 3º controle de credenciais; art. 11 tratamento de dados). A IN foi **integrada ao acervo** com `escopo: contextual`. Ver ADR 0005 e `references/_meta/criterio-escopo.md`.
 
 ### Infraestrutura
 
@@ -192,3 +192,34 @@ obras, comunicação social). Ficam fora da camada de curadoria.
 
 - 176 páginas: 144 vigentes, 19 revogadas, 12 históricas, 1 não-aplicável; 0 não-confirmadas.
 - Curadoria: 175 completas, 1 resumo (todas sem pendência de curadoria).
+
+## Rodada 2026-09-09 (correção de escopo — IN AcompVot 001/2026)
+
+### Contexto
+
+O monitoramento semanal de 2026-09-09 reportou "sem mudanças", mantendo a IN TRE-PR
+001/2026 (Sistema AcompVot) como fora de escopo. Revisão sob demanda identificou que a
+decisão anterior (rodadas 08-29 e 08-31) se baseava em **premissa falsa**: afirmava que
+"comissões de auditoria de votação foram excluídas na rodada anterior", mas as Res. TRE-PR
+893/2022 e 934/2024 (auditoria de funcionamento das urnas) **estão curadas** no acervo com
+`escopo: contextual`.
+
+### Ação corretiva
+
+| Item | Ação |
+|---|---|
+| **Critério de escopo** | Criado `references/_meta/criterio-escopo.md` — referência canônica de classificação; tecnologia eleitoral de votação/urna/apuração entra como `contextual`; verificar consistência com normas análogas antes de excluir |
+| **IN 001/2026 (AcompVot)** | **Integrada ao acervo** com `escopo: contextual` — raw + página curada, vinculada às resoluções de auditoria de urnas |
+| **ADR** | Criado `docs/adr/0005-criterio-escopo-tecnologia-eleitoral-contextual.md` |
+| **Cron** | Prompt atualizado para carregar o critério de escopo e verificar normas análogas antes de excluir |
+| **Histórico** | Rodadas 08-29/08-31 corrigidas; premissa falsa anotada |
+
+### Pendências abertas (itens antes marcados "fora de escopo" — revisar em rodada dedicada)
+
+- Res. TRE-PR 984–987/2026 (Plano de Obras, plebiscito, eleição suplementar)
+- TSE 334/2026 (acesso ao CT-TSE) e TSE 527/2026 (Sala Nacional de Situação Climática)
+
+### Estado do acervo (após correção)
+
+- 188 normas: (atualizar após contagem) · 189 raws
+- IN 001/2026 AcompVot adicionada como `contextual`

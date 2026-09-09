@@ -1,4 +1,12 @@
 
+## [2026-09-09] ingest | Correção de escopo + integração IN TRE-PR 001/2026 (AcompVot)
+- **Correção de escopo**: a IN 001/2026 (Sistema AcompVot) fora inicialmente mantida "fora do escopo" pelo monitoramento sob premissa FALSA (auditorias de votação "excluídas" — mas Res. 893/2022 e 934/2024 estão curadas como `contextual`). Corrigido e integrado.
+- **Critério de escopo** criado: `references/_meta/criterio-escopo.md` — referência canônica; tecnologia eleitoral de votação/urna entra como `contextual`; verificar norma análoga antes de excluir.
+- **IN 001/2026 AcompVot**: raw (texto integral, sha256) + página curada `contextual` vinculada a 893/2022 e 934/2024.
+- **ADR 0005** criado (criterio-escopo-tecnologia-eleitoral-contextual).
+- **Prompt do cron** atualizado para carregar o critério de escopo.
+- Relatório de monitoramento corrigido (premissa falsa anotada).
+
 ## [2026-09-04] audit | Auditoria completa do vault
 - Relatório: wiki/_meta/relatorio-auditoria-20260904.md
 - Resultado: 230 páginas curadas, 188 raws, cobertura 100%, 0 duplicatas, 0 drift de conteúdo

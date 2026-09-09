@@ -1,3 +1,13 @@
+---
+title: "Relatório de Auditoria do Vault — 2026-09-04"
+created: 2026-09-04
+updated: 2026-09-04
+type: meta
+status: vigente
+curadoria: completa
+escopo: contextual
+tags: [auditoria, vault, saude, metadados, relatorio]
+---
 # Auditoria do Vault — 2026-09-04
 
 ## Resumo executivo
@@ -55,7 +65,7 @@
 - 4 candidatos com números similares (12527, 855) são distintos: `lai-12527-2011` (federal, type=norma), `lei-12527-2011-acesso-informacao` (alias, type=metadata), `lai-tre-pr-855-2020` (local, type=norma), `tre-pr-resolucao-855-2020-acesso-informacao` (fonte-normativa)
 
 ### 5. Build drift
-- 187 normas com hash diferente vault↔build → **todas por link rewriting** (`[[references/` → `[[references/`), comportamento correto do sync
+- 187 normas com hash diferente vault↔build → **todas por link rewriting** (conversão `references/` → `references/` no build), comportamento correto do sync
 - 0 divergências de conteúdo real
 - 2 raws com diferença: `INVENTARIO-NORMAS-COLETADAS.md` e `README.md` (arquivos de documentação, não fontes normativas)
 

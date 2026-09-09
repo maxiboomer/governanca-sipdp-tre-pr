@@ -2,7 +2,7 @@
 title: Inventário de Normas — TRE-PR / TSE (SECTI)
 type: inventario
 created: 2026-07-27
-updated: 2026-08-26
+updated: 2026-09-09
 tags: [secti, tre-pr, tse, inventario-normas]
 status: não-aplicável
 curadoria: completa
@@ -42,6 +42,7 @@ confirmada. Para citar norma em documento, prefira sempre subir ao DJE.
 
 | Norma | Procedência | Ementa | Situação da norma | 1ª versão | Última revisão | Publicação | Observações |
 |---|---|---|---|---|---|---|---|
+| NT SECTI 006/2026 (28/08) | TRE-PR | Estabelece os procedimentos e as responsabilidades para a realização de Testes de Penetração (Pentest) no âmbito da Justiça Eleitoral do Paraná, como ferramenta de validação da eficácia dos controles de segurança. | Vigente | 2026 | 2026 | DJE-TRE-PR, nº 192, de 04 de setembro de 2026, p. 19-22. | Complementa a PSI local/nacional (Res. 974/2026 e TSE 23.763/2026); fundamentada em CNJ 396/2021, ISO 27001/2 e CIS Controls v8 C18; risco residual é submetido ao CGSIPDP (art. 18). |
 | NT SECTI 005/2026 (05/08) | TRE-PR | Estabelece padrões e requisitos de segurança para uso do Linux em estações de trabalho da SECTI. | Vigente | 2026 | 2026 | DJE-TRE-PR (ver raw) | Complementa NT SECTI 001/2026; fundamentada em CNJ 370/2021 e 335/2020 |
 | Portaria TSE 143/2026 (14/04) | TSE | Institui norma sobre uso de software e serviços de computação em nuvem do TSE. | Vigente | 2026 | 2026 | Portal TSE, legislação compilada | Em consonância com a PSI-JE (Res. TSE 23.763/2026); correlata à Portaria TRE-PR 257/2025 |
 | Portaria TRE-PR 276/2026 (13/08) | TRE-PR | Altera a Portaria TRE-PR 74/2025 e revoga a Portaria TRE-PR 135/2025 (prestações pecuniárias). | Vigente | 2026 | 2026 | DJE-TRE-PR via SintSE, publ. 21/8/2026 | Motivo: Res. CNJ 685/2026 alterou a Res. CNJ 558/2024; Portaria 135/2025 REVOGADA por esta |
