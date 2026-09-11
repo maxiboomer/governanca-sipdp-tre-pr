@@ -1,4 +1,18 @@
 
+## [2026-09-11] ingest | ANPD — Anonimização e Pseudonimização (2 estudos técnicos + estudo preliminar do Guia)
+- **raws criados** (3 novos em `references/raw/anpd-estudo-*`):
+  - `anpd-estudo-tecnico-anonimizacao-analise-juridica-2023.md`: Estudo Técnico — Análise Jurídica (nov/2023, 50.284 chars)
+  - `anpd-estudo-tecnico-anonimizacao-processo-risco-tecnicas-computacionais-2023.md`: Estudo Técnico — Processo Baseado em Risco e Técnicas Computacionais (nov/2023, 40.885 chars)
+  - `anpd-estudo-preliminar-anonimizacao-pseudonimizacao-2023.md`: Estudo Preliminar — minuta do Guia de Anonimização e Pseudonimização (dez/2023, consulta jan-fev/2024)
+- **Páginas curadas criadas** (3 em `references/normas/`):
+  - `anpd-estudo-tecnico-anonimizacao-analise-juridica-2023.md`
+  - `anpd-estudo-tecnico-anonimizacao-processo-risco-tecnicas-2023.md`
+  - `anpd-estudo-preliminar-anonimizacao-pseudonimizacao-2023.md`
+- **Síntese temática criada**: `references/concepts/anonimizacao-pseudonimizacao-lgpd.md` — visão consolidada das definições, diferenças, processo de 12 etapas, técnicas e cenários
+- **Inventário atualizado**: `references/inventarios/regulamentacoes-anpd.md` — seção "Estudos Técnicos e Estudos Preliminares" criada
+- **conceito `lgpd-recursos-oficiais-anpd`** atualizado com os estudos
+- **index.md**: 1 novo concept, 3 novas normas; estatísticas atualizadas (191 raws → 194 raws, 190 normas → 193 normas, 14 concepts → 15 concepts)
+
 ## [2026-09-09] ingest | Correção de escopo + integração IN TRE-PR 001/2026 (AcompVot)
 - **Correção de escopo**: a IN 001/2026 (Sistema AcompVot) fora inicialmente mantida "fora do escopo" pelo monitoramento sob premissa FALSA (auditorias de votação "excluídas" — mas Res. 893/2022 e 934/2024 estão curadas como `contextual`). Corrigido e integrado.
 - **Critério de escopo** criado: `references/_meta/criterio-escopo.md` — referência canônica; tecnologia eleitoral de votação/urna entra como `contextual`; verificar norma análoga antes de excluir.

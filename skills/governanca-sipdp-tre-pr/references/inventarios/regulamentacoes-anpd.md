@@ -2,8 +2,8 @@
 title: Inventário de Regulamentações ANPD
 type: inventario
 created: 2026-09-04
-updated: 2026-09-04
-tags: [anpd, lgpd, inventario, regulamentacoes]
+updated: 2026-09-11
+tags: [anpd, lgpd, inventario, regulamentacoes, estudos-tecnicos]
 status: vigente
 curadoria: completa
 escopo: contextual
@@ -11,7 +11,7 @@ escopo: contextual
 
 # Inventário de Regulamentações ANPD
 
-Inventário completo dos atos normativos da ANPD listados na página oficial de [Regulamentações da ANPD](https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd). Verificado em 2026-09-04.
+Inventário completo dos atos normativos da ANPD listados na página oficial de [Regulamentações da ANPD](https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd). Verificado em 2026-09-11.
 
 ## Resoluções
 
@@ -50,14 +50,24 @@ Inventário completo dos atos normativos da ANPD listados na página oficial de 
 - [[normas/anpd-guia-legitimo-interesse-2024]] — Hipóteses legais: legítimo interesse (fev/2024)
 - [[normas/anpd-guia-tratamento-dados-poder-publico-2023]] — Tratamento pelo Poder Público (jun/2023, v2.0)
 
+## Estudos Técnicos e Estudos Preliminares (base para futura regulamentação)
+
+Estudos publicados pela ANPD sobre anonimização/pseudonimização, base do Guia ainda não publicado:
+
+- [[normas/anpd-estudo-tecnico-anonimizacao-analise-juridica-2023]] — Estudo Técnico: Análise Jurídica (nov/2023)
+- [[normas/anpd-estudo-tecnico-anonimizacao-processo-risco-tecnicas-2023]] — Estudo Técnico: Processo Baseado em Risco e Técnicas Computacionais (nov/2023)
+- [[normas/anpd-estudo-preliminar-anonimizacao-pseudonimizacao-2023]] — Estudo Preliminar/Minuta do Guia (dez/2023, consulta jan-fev/2024)
+
 ## Observações
 
 - **Normas substantivas** (teor SI/PDP) têm página curada em `references/normas/`
 - **Instrumentos de planejamento** (agendas, mapas de temas, ciclos) ficam apenas no inventário — não criam obrigações diretas
 - Os raws dos atos com página estão em `references/raw/anpd-*.md` com sha256 para detecção de drift
+- **Guia de Anonimização e Pseudonimização**: Item 9 (Fase 1) da Agenda Regulatória 2025-2026 — versão final pendente de publicação (setembro/2026)
 
 ## Relacionamentos
 
 - [[entities/anpd]] — Autoridade Nacional de Proteção de Dados
 - [[concepts/lgpd-recursos-oficiais-anpd]] — Recursos oficiais ANPD
 - [[concepts/lgpd-fundamentos]] — Fundamentos da LGPD
+- [[concepts/anonimizacao-pseudonimizacao-lgpd]] — Síntese temática sobre anonimização

@@ -30,6 +30,14 @@ Guias orientativos que esclarecem aplicação da LGPD em contextos específicos:
 - **Guia Legítimo Interesse (fev/2024)** — Hipótese legal de legítimo interesse: [[normas/anpd-guia-legitimo-interesse-2024]]
 - **Guia Tratamento pelo Poder Público (jun/2023, v2.0)** — Setor público e compartilhamento: [[normas/anpd-guia-tratamento-dados-poder-publico-2023]]
 
+### Estudos Técnicos e Estudos Preliminares
+Estudos publicados pela ANPD que servem de base para orientação e futura regulamentação:
+
+- **Anonimização — Análise Jurídica (nov/2023)** — Fundamentos jurídico-normativos do processo de anonimização: [[normas/anpd-estudo-tecnico-anonimizacao-analise-juridica-2023]]
+- **Anonimização — Processo Baseado em Risco e Técnicas Computacionais (nov/2023)** — Metodologia e caderno de técnicas: [[normas/anpd-estudo-tecnico-anonimizacao-processo-risco-tecnicas-2023]]
+- **Estudo Preliminar: Anonimização e Pseudonimização (dez/2023)** — Minuta do Guia submetida à consulta pública: [[normas/anpd-estudo-preliminar-anonimizacao-pseudonimizacao-2023]]
+- **Síntese consolidada**: [[concepts/anonimizacao-pseudonimizacao-lgpd]]
+
 ### RIPD (Relatório de Impacto à Proteção de Dados)
 Instrumento obrigatório para projetos com risco elevado aos direitos:
 - [[concepts/lgpd-ia-governanca]] - RIPD para IA

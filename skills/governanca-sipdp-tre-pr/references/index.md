@@ -17,6 +17,7 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 - [[references/entities/secti|SECTI - Secretaria de Tecnologia da Informação]]
 
 ## Concepts
+- [[references/concepts/anonimizacao-pseudonimizacao-lgpd|Anonimização e Pseudonimização — Síntese LGPD/ANPD]]
 - [[references/concepts/governanca-ti|Governança de TI no TRE-PR (CETI e comitês)]]
 - [[references/concepts/implementacao-cnj-363-2021|Implementação da Resolução CNJ 363/2021]]
 - [[references/concepts/lgpd-diagnostico-fase1|Fase 1 — Diagnóstico (Gap Analysis LGPD)]]
@@ -229,9 +230,12 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 ## Estatísticas
 - Fontes brutas em `references/raw/`: 191 arquivos raw `.md` (todos com `sha256:`)
 - Páginas curadas em `references/normas/`: 190 (uma para cada norma)
-- Entities: 11 · Concepts: 14 · Comparisons: 2 · Inventários: 5 · Sources: 7
+- Entities: 11 · Concepts: 15 · Comparisons: 2 · Inventários: 5 · Sources: 7
 
 ## Normas (novas)
+- [[references/normas/anpd-estudo-tecnico-anonimizacao-analise-juridica-2023|ANPD Estudo Técnico: Análise Jurídica da Anonimização (nov/2023)]]
+- [[references/normas/anpd-estudo-tecnico-anonimizacao-processo-risco-tecnicas-2023|ANPD Estudo Técnico: Processo Baseado em Risco e Técnicas Computacionais (nov/2023)]]
+- [[references/normas/anpd-estudo-preliminar-anonimizacao-pseudonimizacao-2023|ANPD Estudo Preliminar: Anonimização e Pseudonimização (dez/2023)]]
 - [[references/normas/tre-pr-in-instrucao-normativa-001-de-24-de-agosto-de-2026-acompvot|IN TRE-PR 001/2026 — Sistema AcompVot (Eleições 2026)]]
 - [[references/normas/tre-pr-portaria-dg-085-2026-redesigna-cgti|Portaria DG TRE-PR 085/2026 — Redesigna membros do CGTI]]
 - [[references/normas/anpd-guia-legitimo-interesse-2024|ANPD Guia: Legítimo Interesse (fev/2024)]]

@@ -1,0 +1,30 @@
+{
+  "last_run": "2026-09-11T14:30:11.107893",
+  "detected": false,
+  "sources": {
+    "balanço_agenda": {
+      "hash": "ee6aef8626778df64becffb4e91dbea61eb03fd471e487b09c1b2a1ad94c463b",
+      "title": null,
+      "items_count": 74,
+      "last_seen": "2026-09-11T14:30:08.682728",
+      "changed": true,
+      "keyword_matches": 0
+    },
+    "regulamentacoes": {
+      "hash": "1163ab64e3de6c5e2ceb7198a2c2c44968fcfe17a75bcfb6ffbb54209d133d5b",
+      "title": null,
+      "items_count": 125,
+      "last_seen": "2026-09-11T14:30:09.898489",
+      "changed": true,
+      "keyword_matches": 0
+    },
+    "noticias": {
+      "hash": "ff7eedc70f02738360ab00eee816bc794ba1f169ef89b378cfbf7436c3b10525",
+      "title": null,
+      "items_count": 72,
+      "last_seen": "2026-09-11T14:30:11.107808",
+      "changed": true,
+      "keyword_matches": 0
+    }
+  }
+}
