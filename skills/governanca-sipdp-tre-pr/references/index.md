@@ -17,12 +17,14 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 - [[references/entities/encarregado-dpo|Encarregado DPO]]
 - [[references/entities/etir|ETIR - Equipe de Tratamento e Resposta a Incidentes]]
 - [[references/entities/secti|SECTI - Secretaria de Tecnologia da Informação]]
+- [[references/entities/secaudi|SECAUDI - Secretaria de Auditoria Interna]]
 - [[references/entities/secad|SECAD - Secretaria de Administração]]
 - [[references/entities/seccre|SECCRE - Secretaria da Corregedoria Regional Eleitoral]]
 - [[references/entities/secgp|SECGP - Secretaria de Gestão de Pessoas]]
 - [[references/entities/secofc|SECOFC - Secretaria de Orçamento, Finanças e Contabilidade]]
 - [[references/entities/secplei|SECPLEI - Secretaria de Planejamento e Logística de Eleições e de Inovação]]
 - [[references/entities/secjud|SECJUD - Secretaria Judiciária]]
+- [[references/entities/secom|SECOM - Secretaria de Comunicação e Multimídia]]
 - [[references/entities/tse|TSE - Tribunal Superior Eleitoral]]
 
 ## Concepts
@@ -240,7 +242,7 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 ## Estatísticas
 - Fontes brutas em `references/raw/`: 191 arquivos raw `.md` (todos com `sha256:`)
 - Páginas curadas em `references/normas/`: 190 (uma para cada norma)
-- Entities: 19 · Concepts: 16 · Comparisons: 2 · Inventários: 5 · Sources: 7
+- Entities: 21 · Concepts: 16 · Comparisons: 2 · Inventários: 5 · Sources: 7
 
 ## Normas (novas)
 - [[references/normas/anpd-estudo-tecnico-anonimizacao-analise-juridica-2023|ANPD Estudo Técnico: Análise Jurídica da Anonimização (nov/2023)]]
