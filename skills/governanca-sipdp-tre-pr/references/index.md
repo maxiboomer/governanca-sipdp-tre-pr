@@ -21,7 +21,6 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 - [[references/entities/seccre|SECCRE - Secretaria de Corregedoria e Controle Interno]]
 - [[references/entities/secgp|SECGP - Secretaria de Gestão de Pessoas]]
 - [[references/entities/sefin|SEFIN - Secretaria de Finanças]]
-- [[references/entities/seplan|SEPLAN - Secretaria de Planejamento e Gestão Estratégica]]
 - [[references/entities/secjud|SECJUD - Secretaria Judiciária]]
 - [[references/entities/tse|TSE - Tribunal Superior Eleitoral]]
 
@@ -240,7 +239,7 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 ## Estatísticas
 - Fontes brutas em `references/raw/`: 191 arquivos raw `.md` (todos com `sha256:`)
 - Páginas curadas em `references/normas/`: 190 (uma para cada norma)
-- Entities: 20 · Concepts: 16 · Comparisons: 2 · Inventários: 5 · Sources: 7
+- Entities: 19 · Concepts: 16 · Comparisons: 2 · Inventários: 5 · Sources: 7
 
 ## Normas (novas)
 - [[references/normas/anpd-estudo-tecnico-anonimizacao-analise-juridica-2023|ANPD Estudo Técnico: Análise Jurídica da Anonimização (nov/2023)]]
