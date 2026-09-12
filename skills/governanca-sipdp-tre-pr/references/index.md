@@ -9,12 +9,21 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 - [[references/entities/asc|ASC - Assessoria de Comunicação Social]]
 - [[references/entities/ceti|CETI - Comitê Executivo de TI (Portaria 124/2026)]]
 - [[references/entities/cger|CGER - Comitê de Gestão Estratégica e Riscos (Portaria 296/2025)]]
+- [[references/entities/cgeri|CGERI - Comitê de Gestão Estratégica e Inovação]]
 - [[references/entities/cgsipdp|CGSIPDP - Comitê Gestor de SI e de Proteção de Dados Pessoais (Portaria 296/2025)]]
 - [[references/entities/cgti|CGTI - Comitê de Gestão da TI (Portaria 296/2025)]]
-- [[references/entities/csi-unidade-si|CSI e Unidade de Segurança da Informação da PSI Nacional]]
+- [[references/entities/csi-unidade-si|CSI - Unidade de Segurança da Informação da PSI Nacional]]
+- [[references/entities/cnj|CNJ - Conselho Nacional de Justiça]]
 - [[references/entities/encarregado-dpo|Encarregado DPO]]
 - [[references/entities/etir|ETIR - Equipe de Tratamento e Resposta a Incidentes]]
 - [[references/entities/secti|SECTI - Secretaria de Tecnologia da Informação]]
+- [[references/entities/secad|SECAD - Secretaria de Administração]]
+- [[references/entities/seccre|SECCRE - Secretaria de Corregedoria]]
+- [[references/entities/secgp|SECGP - Secretaria de Gestão de Pessoas]]
+- [[references/entities/secofc|SECOFC - Secretaria de Organização e Finanças]]
+- [[references/entities/secplei|SECPLEI - Secretaria de Pessoal e Litígios]]
+- [[references/entities/secjud|SECJUD - Secretaria Judiciária]]
+- [[references/entities/tse|TSE - Tribunal Superior Eleitoral]]
 
 ## Concepts
 - [[references/concepts/anonimizacao-pseudonimizacao-lgpd|Anonimização e Pseudonimização — Síntese LGPD/ANPD]]
@@ -231,7 +240,7 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 ## Estatísticas
 - Fontes brutas em `references/raw/`: 191 arquivos raw `.md` (todos com `sha256:`)
 - Páginas curadas em `references/normas/`: 190 (uma para cada norma)
-- Entities: 11 · Concepts: 16 · Comparisons: 2 · Inventários: 5 · Sources: 7
+- Entities: 20 · Concepts: 16 · Comparisons: 2 · Inventários: 5 · Sources: 7
 
 ## Normas (novas)
 - [[references/normas/anpd-estudo-tecnico-anonimizacao-analise-juridica-2023|ANPD Estudo Técnico: Análise Jurídica da Anonimização (nov/2023)]]

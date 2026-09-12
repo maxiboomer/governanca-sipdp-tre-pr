@@ -3,6 +3,12 @@
 - **Concept criado**: `references/concepts/tecnicas-protecao-dados-lgpd.md` — síntese das 4 técnicas (anonimização, pseudonimização, mascaramento, tarjamento) com definições legais e uso prático no TRE-PR
 - **index.md atualizado**: +1 concept (15 → 16)
 
+## [2026-09-11] ingest | Novas entidades (secretarias e órgãos externos)
+- **8 novos entities criados**:
+  - `seca.md`, `seccre.md`, `secgp.md`, `secofc.md`, `secplei.md`, `secjud.md` (secretarias internas)
+  - `cnj.md`, `tse.md` (órgãos externos normativos)
+- **index.md atualizado**: +8 entities (12 → 20)
+
 ## [2026-09-11] ingest | ANPD — Anonimização e Pseudonimização (2 estudos técnicos + estudo preliminar do Guia)
 - **raws criados** (3 novos em `references/raw/anpd-estudo-*`):
   - `anpd-estudo-tecnico-anonimizacao-analise-juridica-2023.md`: Estudo Técnico — Análise Jurídica (nov/2023, 50.284 chars)
