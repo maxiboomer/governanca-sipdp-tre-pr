@@ -1,4 +1,8 @@
 
+## [2026-09-11] ingest | Técnicas de Proteção de Dados — LGPD
+- **Concept criado**: `references/concepts/tecnicas-protecao-dados-lgpd.md` — síntese das 4 técnicas (anonimização, pseudonimização, mascaramento, tarjamento) com definições legais e uso prático no TRE-PR
+- **index.md atualizado**: +1 concept (15 → 16)
+
 ## [2026-09-11] ingest | ANPD — Anonimização e Pseudonimização (2 estudos técnicos + estudo preliminar do Guia)
 - **raws criados** (3 novos em `references/raw/anpd-estudo-*`):
   - `anpd-estudo-tecnico-anonimizacao-analise-juridica-2023.md`: Estudo Técnico — Análise Jurídica (nov/2023, 50.284 chars)

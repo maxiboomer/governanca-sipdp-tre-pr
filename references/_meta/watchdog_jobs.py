@@ -36,6 +36,38 @@ def run_cron_action(action, job_id):
         return False, str(e)
 
 
+def get_job_status(job_id):
+    """Obtém status do job via 'hermes cron runs' (última execução)."""
+    try:
+        result = subprocess.run(
+            ["hermes", "cron", "runs", job_id],
+            capture_output=True,
+            text=True,
+            timeout=30
+        )
+        if result.returncode != 0:
+            return {"last_status": "error", "error": result.stderr}
+        
+        output = result.stdout.strip()
+        if "No cron execution attempts recorded" in output:
+            # Nunca executou — não é erro, só não rodou ainda
+            return {"last_status": "never_run"}
+        
+        # Extrai status da primeira linha (mais recente)
+        # Formato: <id>  <status>  job=<id>  source=<src>  <timestamp>
+        for line in output.split("\n"):
+            line = line.strip()
+            if not line or line.startswith("RuntimeError"):
+                continue
+            parts = line.split()
+            if len(parts) >= 2:
+                return {"last_status": parts[1]}
+        
+        return {"last_status": "unknown"}
+    except Exception as e:
+        return {"last_status": "error", "error": str(e)}
+
+
 def send_whatsapp_message(message):
     """Envia mensagem via Hermes."""
     try:
@@ -69,19 +101,8 @@ def check_jobs():
     """Verifica status de todos os jobs."""
     results = {}
     for name, job_id in JOB_IDS.items():
-        success, output = run_cron_action("list", job_id)
-        if success:
-            data = json.loads(output)
-            job_data = data.get("job", {})
-            status = {
-                "last_status": job_data.get("last_status"),
-                "last_run_at": job_data.get("last_run_at"),
-                "next_run_at": job_data.get("next_run_at"),
-                "enabled": job_data.get("enabled", True),
-            }
-            results[name] = status
-        else:
-            results[name] = {"last_status": "error", "error": output}
+        status = get_job_status(job_id)
+        results[name] = status
     return results
 
 
@@ -102,7 +123,12 @@ def main():
             # Verifica se já alertou recentemente
             last_alert = state["last_alerts"].get(name)
             if not last_alert or (datetime.now() - datetime.fromisoformat(last_alert)).total_seconds() > 3600:
-                alert_msg = f"⚠️ Alerta Watchdog\n\nJob *{name}* está com status *error*.\n\nPróxima execução: {status.get('next_run_at', 'N/A')}\n\nVerifique o log em ~/.hermes/cron/output/."
+                alert_msg = (
+                    f"⚠️ Alerta Watchdog\n\n"
+                    f"Job *{name}* está com status *error*.\n"
+                    f"Erro: {status.get('error', 'desconhecido')}\n\n"
+                    f"Verifique: hermes cron runs {JOB_IDS.get(name, '')}"
+                )
                 success, _ = send_whatsapp_message(alert_msg)
                 if success:
                     state["last_alerts"][name] = datetime.now().isoformat()
@@ -110,6 +136,8 @@ def main():
                 else:
                     print(f"  ❌ Falha ao enviar alerta")
                 alerts.append(name)
+        elif status.get("last_status") == "never_run":
+            print(f"  ⏳ Nunca executou (job novo ou agendado)")
         else:
             print(f"  ✅ OK")
 

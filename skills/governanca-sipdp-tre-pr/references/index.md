@@ -18,6 +18,7 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 
 ## Concepts
 - [[references/concepts/anonimizacao-pseudonimizacao-lgpd|Anonimização e Pseudonimização — Síntese LGPD/ANPD]]
+- [[references/concepts/tecnicas-protecao-dados-lgpd|Técnicas de Proteção de Dados — LGPD]]
 - [[references/concepts/governanca-ti|Governança de TI no TRE-PR (CETI e comitês)]]
 - [[references/concepts/implementacao-cnj-363-2021|Implementação da Resolução CNJ 363/2021]]
 - [[references/concepts/lgpd-diagnostico-fase1|Fase 1 — Diagnóstico (Gap Analysis LGPD)]]
@@ -230,7 +231,7 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 ## Estatísticas
 - Fontes brutas em `references/raw/`: 191 arquivos raw `.md` (todos com `sha256:`)
 - Páginas curadas em `references/normas/`: 190 (uma para cada norma)
-- Entities: 11 · Concepts: 15 · Comparisons: 2 · Inventários: 5 · Sources: 7
+- Entities: 11 · Concepts: 16 · Comparisons: 2 · Inventários: 5 · Sources: 7
 
 ## Normas (novas)
 - [[references/normas/anpd-estudo-tecnico-anonimizacao-analise-juridica-2023|ANPD Estudo Técnico: Análise Jurídica da Anonimização (nov/2023)]]
