@@ -1,5 +1,5 @@
 ---
-title: SECPLEI - Secretaria de Pessoal e Litígios
+title: SECPLEI - Secretaria de Planejamento de Eleições e Estratégia
 type: entity
 created: 2026-09-11
 updated: 2026-09-11
@@ -9,10 +9,10 @@ curadoria: completa
 escopo: central-si-pdp
 ---
 
-# SECPLEI — Secretaria de Pessoal e Litígios
+# SECPLEI — Secretaria de Planejamento de Eleições e Estratégia
 
 ## O que é
-A **SECPLEI** (Secretaria de Pessoal e Litígios) é uma das secretarias internas do TRE-PR que integra os comitês de governança de TI.
+A **SECPLEI** (Secretaria de Planejamento de Eleições e Estratégia) é uma das secretarias internas do TRE-PR que integra os comitês de governança de TI.
 
 ## Legislação
 - **Portaria TRE-PR nº 296/2025** (art. 8º, VI) — composição do CGSIPDP
@@ -20,7 +20,6 @@ A **SECPLEI** (Secretaria de Pessoal e Litígios) é uma das secretarias interna
 
 ## Atribuições
 Membro permanente dos comitês de governança de TI do TRE-PR (CGSIPDP e CGTI).
-
 ## Relacionamentos
 - [[entities/ceti]] — Comitê Executivo de TI
 - [[entities/cgti]] — Comitê de Gestão da TI
