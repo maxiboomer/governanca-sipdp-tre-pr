@@ -1,20 +1,21 @@
 ---
-title: SECCRE - Secretaria de Corregedoria e Controle Interno
+title: SECCRE - Secretaria da Corregedoria Regional Eleitoral
 type: entity
 created: 2026-09-11
 updated: 2026-09-11
-tags: [seccre, secretaria, corregedoria-controle, tre-pr]
+tags: [seccre, secretaria, corregedoria, tre-pr]
 status: não-aplicável
 curadoria: completa
 escopo: central-si-pdp
 ---
 
-# SECCRE — Secretaria de Corregedoria e Controle Interno
+# SECCRE — Secretaria da Corregedoria Regional Eleitoral
 
 ## O que é
-A **SECCRE** (Secretaria de Corregedoria e Controle Interno) é uma das secretarias internas do TRE-PR que integra os comitês de governança de TI.
+A **SECCRE** (Secretaria da Corregedoria Regional Eleitoral) é uma das secretarias internas do TRE-PR que integra os comitês de governança de TI.
 
 ## Legislação
+- **Resolução TRE-PR nº 971/2026** — Regulamento da Secretaria do TRE-PR
 - **Portaria TRE-PR nº 296/2025** (art. 8º, III) — composição do CGSIPDP
 - **Portaria TRE-PR nº 296/2025** (art. 4º, III) — composição do CGTI
 
