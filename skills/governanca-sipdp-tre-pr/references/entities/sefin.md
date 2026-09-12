@@ -1,22 +1,22 @@
 ---
-title: SECCRE - Secretaria de Corregedoria e Controle Interno
+title: SEFIN - Secretaria de Finanças
 type: entity
 created: 2026-09-11
 updated: 2026-09-11
-tags: [seccre, secretaria, corregedoria-controle, tre-pr]
+tags: [sefin, secretaria, financas, tre-pr]
 status: não-aplicável
 curadoria: completa
 escopo: central-si-pdp
 ---
 
-# SECCRE — Secretaria de Corregedoria e Controle Interno
+# SEFIN — Secretaria de Finanças
 
 ## O que é
-A **SECCRE** (Secretaria de Corregedoria e Controle Interno) é uma das secretarias internas do TRE-PR que integra os comitês de governança de TI.
+A **SEFIN** (Secretaria de Finanças) é uma das secretarias internas do TRE-PR que integra os comitês de governança de TI.
 
 ## Legislação
-- **Portaria TRE-PR nº 296/2025** (art. 8º, III) — composição do CGSIPDP
-- **Portaria TRE-PR nº 296/2025** (art. 4º, III) — composição do CGTI
+- **Portaria TRE-PR nº 296/2025** (art. 8º, V) — composição do CGSIPDP
+- **Portaria TRE-PR nº 296/2025** (art. 4º, V) — composição do CGTI
 
 ## Atribuições
 Membro permanente dos comitês de governança de TI do TRE-PR (CGSIPDP e CGTI).

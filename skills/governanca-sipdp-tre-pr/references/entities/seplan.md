@@ -1,22 +1,22 @@
 ---
-title: SECCRE - Secretaria de Corregedoria e Controle Interno
+title: SEPLAN - Secretaria de Planejamento e Gestão Estratégica
 type: entity
 created: 2026-09-11
 updated: 2026-09-11
-tags: [seccre, secretaria, corregedoria-controle, tre-pr]
+tags: [seplan, secretaria, planejamento-estrategia, tre-pr]
 status: não-aplicável
 curadoria: completa
 escopo: central-si-pdp
 ---
 
-# SECCRE — Secretaria de Corregedoria e Controle Interno
+# SEPLAN — Secretaria de Planejamento e Gestão Estratégica
 
 ## O que é
-A **SECCRE** (Secretaria de Corregedoria e Controle Interno) é uma das secretarias internas do TRE-PR que integra os comitês de governança de TI.
+A **SEPLAN** (Secretaria de Planejamento e Gestão Estratégica) é uma das secretarias internas do TRE-PR que integra os comitês de governança de TI.
 
 ## Legislação
-- **Portaria TRE-PR nº 296/2025** (art. 8º, III) — composição do CGSIPDP
-- **Portaria TRE-PR nº 296/2025** (art. 4º, III) — composição do CGTI
+- **Portaria TRE-PR nº 296/2025** (art. 8º, VII) — composição do CGSIPDP
+- **Portaria TRE-PR nº 296/2025** (art. 4º, VII) — composição do CGTI
 
 ## Atribuições
 Membro permanente dos comitês de governança de TI do TRE-PR (CGSIPDP e CGTI).
