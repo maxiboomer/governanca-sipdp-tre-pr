@@ -9,27 +9,14 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 - [[references/entities/asc|ASC - Assessoria de Comunicação Social]]
 - [[references/entities/ceti|CETI - Comitê Executivo de TI (Portaria 124/2026)]]
 - [[references/entities/cger|CGER - Comitê de Gestão Estratégica e Riscos (Portaria 296/2025)]]
-- [[references/entities/cgeri|CGERI - Comitê de Gestão Estratégica e Inovação]]
 - [[references/entities/cgsipdp|CGSIPDP - Comitê Gestor de SI e de Proteção de Dados Pessoais (Portaria 296/2025)]]
 - [[references/entities/cgti|CGTI - Comitê de Gestão da TI (Portaria 296/2025)]]
-- [[references/entities/csi-unidade-si|CSI - Unidade de Segurança da Informação da PSI Nacional]]
-- [[references/entities/cnj|CNJ - Conselho Nacional de Justiça]]
+- [[references/entities/csi-unidade-si|CSI e Unidade de Segurança da Informação da PSI Nacional]]
 - [[references/entities/encarregado-dpo|Encarregado DPO]]
 - [[references/entities/etir|ETIR - Equipe de Tratamento e Resposta a Incidentes]]
 - [[references/entities/secti|SECTI - Secretaria de Tecnologia da Informação]]
-- [[references/entities/secaudi|SECAUDI - Secretaria de Auditoria Interna]]
-- [[references/entities/secad|SECAD - Secretaria de Administração]]
-- [[references/entities/seccre|SECCRE - Secretaria da Corregedoria Regional Eleitoral]]
-- [[references/entities/secgp|SECGP - Secretaria de Gestão de Pessoas]]
-- [[references/entities/secofc|SECOFC - Secretaria de Orçamento, Finanças e Contabilidade]]
-- [[references/entities/secplei|SECPLEI - Secretaria de Planejamento e Logística de Eleições e de Inovação]]
-- [[references/entities/secjud|SECJUD - Secretaria Judiciária]]
-- [[references/entities/secom|SECOM - Secretaria de Comunicação e Multimídia]]
-- [[references/entities/tse|TSE - Tribunal Superior Eleitoral]]
 
 ## Concepts
-- [[references/concepts/anonimizacao-pseudonimizacao-lgpd|Anonimização e Pseudonimização — Síntese LGPD/ANPD]]
-- [[references/concepts/tecnicas-protecao-dados-lgpd|Técnicas de Proteção de Dados — LGPD]]
 - [[references/concepts/governanca-ti|Governança de TI no TRE-PR (CETI e comitês)]]
 - [[references/concepts/implementacao-cnj-363-2021|Implementação da Resolução CNJ 363/2021]]
 - [[references/concepts/lgpd-diagnostico-fase1|Fase 1 — Diagnóstico (Gap Analysis LGPD)]]
@@ -208,6 +195,7 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 - [[references/normas/tre-pr-resolucao-962-2025-comite-crise-cibernetica|Resolução TRE-PR 962/2025 - Comitê de Crises Cibernéticas]]
 - [[references/normas/tre-pr-resolucao-974-2026-psi-local|TRE-Pr Resolução 974/2026 - Política de Segurança da Informação (PSI) Local]]
 - [[references/normas/tre-pr-resolucao-980-2026-altera-cgeri|TRE-Pr Resolução 980/2026 - Altera CGERI e Governança]]
+- [[references/normas/tre-pr-resolucao-977-2026-cave-auditoria-votacao|Resolução TRE-PR 977/2026 - Comissão de Auditoria da Votação Eletrônica (CAVE), Eleições 2026]]
 - [[references/normas/tre-pr-resolucao-982-2026-reestruturacao|TRE-Pr Resolução 982/2026 - Reestruturação do Tribunal]]
 - [[references/normas/tse-portaria-1013-2018-pdi|Portaria TSE 1.013/2018 - Política de Preservação Digital da Justiça Eleitoral]]
 - [[references/normas/tse-portaria-302-2025-substituicao-assessor-chefe|TSE Portaria 302/2025 - Substituição Assessor-Chefe]]
@@ -240,14 +228,11 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 - [[references/comparisons/controle-acesso-in004-2025-vs-2022-vs-2018|Controle de Acesso: IN 004/2025 × IN 004/2022 × IN-DG 2018]]
 
 ## Estatísticas
-- Fontes brutas em `references/raw/`: 191 arquivos raw `.md` (todos com `sha256:`)
-- Páginas curadas em `references/normas/`: 190 (uma para cada norma)
-- Entities: 21 · Concepts: 16 · Comparisons: 2 · Inventários: 5 · Sources: 7
+- Fontes brutas em `references/raw/`: 192 arquivos raw `.md` (todos com `sha256:`)
+- Páginas curadas em `references/normas/`: 191 (uma para cada norma)
+- Entities: 11 · Concepts: 14 · Comparisons: 2 · Inventários: 5 · Sources: 7
 
 ## Normas (novas)
-- [[references/normas/anpd-estudo-tecnico-anonimizacao-analise-juridica-2023|ANPD Estudo Técnico: Análise Jurídica da Anonimização (nov/2023)]]
-- [[references/normas/anpd-estudo-tecnico-anonimizacao-processo-risco-tecnicas-2023|ANPD Estudo Técnico: Processo Baseado em Risco e Técnicas Computacionais (nov/2023)]]
-- [[references/normas/anpd-estudo-preliminar-anonimizacao-pseudonimizacao-2023|ANPD Estudo Preliminar: Anonimização e Pseudonimização (dez/2023)]]
 - [[references/normas/tre-pr-in-instrucao-normativa-001-de-24-de-agosto-de-2026-acompvot|IN TRE-PR 001/2026 — Sistema AcompVot (Eleições 2026)]]
 - [[references/normas/tre-pr-portaria-dg-085-2026-redesigna-cgti|Portaria DG TRE-PR 085/2026 — Redesigna membros do CGTI]]
 - [[references/normas/anpd-guia-legitimo-interesse-2024|ANPD Guia: Legítimo Interesse (fev/2024)]]
@@ -269,6 +254,7 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 - [[references/normas/tre-pr-nt-secti-002-2026-mds|Norma Técnica SECTI 002/2026 — MDS]]
 - [[references/normas/tre-pr-resolucao-940-2024|Resolução TRE-PR 940/2024 — Código de Ética e Integridade]]
 - [[references/normas/tre-pr-in-instrucao-normativa-004-de-28-de-maio-de-2025|Instrução Normativa TRE-PR 004/2025 — Gestão de Identidade e Controle de Acesso]]
+- [[references/normas/tre-pr-resolucao-977-2026-cave-auditoria-votacao|Resolução TRE-PR 977/2026 — Comissão de Auditoria da Votação Eletrônica (CAVE), Eleições 2026]]
 
 ## Metadados
 - [[references/_meta/auditoria-changelog-normas-eleitorais|Changelog — skill analise-normas-eleitorais]]
