@@ -14,7 +14,7 @@ from pathlib import Path
 # Configuração
 WATCHDOG_STATE = Path("~/.hermes/cron/watchdog_state.json").expanduser()
 JOB_IDS = {
-    "monitor-normas-secti": "7bc98667d933",
+    "monitor-normas-secti": "91e84e1b5a7a",
     "monitor-anonimizacao-anpd": "455d6fd437e5",
     "watchdog": "0a2b8aa9751d",
 }
@@ -119,14 +119,14 @@ def main():
         print(f"  Status: {status.get('last_status', 'unknown')}")
 
         # Verifica falhas
-        if status.get("last_status") == "error":
+        if status.get("last_status") in ("error", "failed"):
             # Verifica se já alertou recentemente
             last_alert = state["last_alerts"].get(name)
             if not last_alert or (datetime.now() - datetime.fromisoformat(last_alert)).total_seconds() > 3600:
                 alert_msg = (
                     f"⚠️ Alerta Watchdog\n\n"
-                    f"Job *{name}* está com status *error*.\n"
-                    f"Erro: {status.get('error', 'desconhecido')}\n\n"
+                    f"Job *{name}* está com status *{status.get('last_status')}*.\n"
+                    f"Erro: {status.get('error', 'verifique o log')}\n\n"
                     f"Verifique: hermes cron runs {JOB_IDS.get(name, '')}"
                 )
                 success, _ = send_whatsapp_message(alert_msg)
