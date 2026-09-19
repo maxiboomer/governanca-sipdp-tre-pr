@@ -1,48 +1,39 @@
 ---
-title: "TRE-Pr Portaria 247/2021 - Unidade Encarregada Dados LGPD"
+title: "Portaria TRE-PR nº 247/2021 — Unidade Encarregada de Dados"
 created: 2026-08-26
-updated: 2026-08-26
+updated: 2026-09-17
 type: fonte-normativa
-status: vigente
-status_verificacao: "Portaria 247/2021 vigente; unidade encarregada de dados (DPO); revogou a Portaria 108/2021; verificado em 2026-08-26."
-fonte_publicacao: "https://www.tre-pr.jus.br/legislacao/compilada/portarias-da-presidencia-tre-pr/2021/portaria-ndeg-247-de"
-data_publicacao: "24/05/2021"
+status: revogada-parcialmente
+status_verificacao: "O compilado oficial registra a revogação somente do art. 1º pela Portaria 295/2026, art. 2º. Os arts. 2º a 4º permanecem no texto. Ressalva temporal: a página da 295 informa publicação em 18/09/2026, posterior à consulta de 17/09/2026; não confundir assinatura com publicação."
+fonte_publicacao: "https://www.tre-pr.jus.br/legislacao/compilada/portarias-da-presidencia-tre-pr/2021/portaria-ndeg-247-de?texto=compilado"
+data_publicacao: "28/05/2021"
+data_assinatura: "24/05/2021"
 tags: [norma, curadoria, si-pdp]
-sources: [references/raw/tre-pr-portaria-247-2021-dpo-lgpd.md]
+sources: [raw/tre-pr-portaria-247-2021-dpo-lgpd.md]
 curadoria: completa
-escopo: contextual
+escopo: central-si-pdp
 ---
 
-# TRE-Pr Portaria 247/2021 - Unidade Encarregada Dados LGPD
+# Portaria TRE-PR nº 247/2021 — Unidade Encarregada de Dados
 
-## Finalidade e escopo
+## Síntese e status normativo
 
-Esta norma integra o corpus de **SI/PDP e governança tecnológica**. A página foi curada a partir do texto integral preservado em `references/raw/tre-pr-portaria-247-2021-dpo-lgpd.md`; a fonte bruta permanece imutável.
+**Revogação parcial, limitada ao art. 1º**, conforme anotação do compilado oficial e comando expresso do art. 2º da Portaria 295/2026. Não houve revogação integral da Portaria 247/2021 por esse ato.
 
-Designa a Coordenadoria de Planejamento de Estratégia e Gestão como nova Unidade Encarregada pela Proteção de Dados Pessoais (DPO). Revoga Portaria 108/2021 art. 2º.
+## Dispositivos preservados no compilado
 
-## Status normativo
-
-**Não confirmado**
-
-- Verificação: **não substituir esta indicação pela aparência do inventário**; consultar a publicação oficial antes de emitir parecer ou orientar procedimento.
-- Norma sucessora/efeito: não identificado na revisão inicial; pesquisar alterações e revogações no DJE/DOU.
-
-## Pontos operacionais extraídos
-
-- Texto integral preservado na fonte bruta; a síntese deve ser refinada quando houver necessidade operacional.
-
+- **Art. 2º:** o nome do titular da Unidade Encarregada de Dados deve ser divulgado em todos os canais de comunicação do TRE-PR, especialmente na página destinada às informações sobre a LGPD. Esta obrigação não foi revogada pela Portaria 295/2026.
+- **Art. 3º:** revoga o art. 2º da Portaria TRE-PR nº 108/2021; não foi atingido pela revogação promovida pela 295/2026.
+- **Art. 4º:** estabelece a entrada em vigor na data da assinatura.
 
 ## Relações
 
-[[references/concepts/lgpd-ia-governanca]]
-- [[references/entities/cgsipdp]]
+- [[normas/tre-pr-portaria-presid-295-2026-dpo-encarregada-pdp]] — designa nova unidade e revoga exclusivamente o art. 1º desta portaria.
+- [[entities/encarregado-dpo]] — unidade encarregada e publicidade do titular.
 
-## Fonte integral
+## Fontes e ressalva temporal
 
-- `references/raw/tre-pr-portaria-247-2021-dpo-lgpd.md`
-- Publicação/URL registrada: https://www.tre-pr.jus.br/legislacao/compilada/portarias-da-presidencia-tre-pr/2021/portaria-ndeg-247-de
-
-## Nota de qualidade
-
-Página anteriormente gerada como stub. Esta primeira curadoria não constitui certificação de vigência: o campo `status_verificacao` explicita a pendência de confirmação oficial.
+- [Texto compilado oficial](https://www.tre-pr.jus.br/legislacao/compilada/portarias-da-presidencia-tre-pr/2021/portaria-ndeg-247-de?texto=compilado).
+- Fonte histórica preservada: `raw/tre-pr-portaria-247-2021-dpo-lgpd.md`.
+- Publicação da 247 indicada pelo portal: DJE-TRE-PR nº 101, de 28/05/2021; assinatura em 24/05/2021.
+- Consulta: 17/09/2026. O portal já anota a revogação parcial, mas informa para a 295 publicação em 18/09/2026 e vigência na publicação. Essa divergência temporal deve ser esclarecida antes de afirmar que seus efeitos já ocorreram em 17/09/2026.

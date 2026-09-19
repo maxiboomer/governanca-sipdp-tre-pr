@@ -75,7 +75,7 @@ Descritas no Regulamento da Secretaria para a unidade antecessora:
 
 ## Fronteiras — o que a AGM NÃO absorveu
 
-- **Encarregado de Dados (DPO):** não fica na AGM. O papel está na **SEGEI**
+- **Encarregado de Dados (DPO):** não fica na AGM. O papel está na **SEGIN**
   (Secretaria de Gestão Estratégica e Inovação), ligada diretamente à Presidência.
   Ver [Encarregado/DPO](references/entities/encarregado-dpo.md) e
   [Portaria 247/2021](references/normas/tre-pr-portaria-247-2021-dpo-lgpd.md).
@@ -92,7 +92,7 @@ Descritas no Regulamento da Secretaria para a unidade antecessora:
 ## Relações
 
 - [CGSI/PDP](references/entities/cgsipdp.md) — comitê que a AGM apoia tecnicamente
-- [Encarregado/DPO](references/entities/encarregado-dpo.md) — apoiado tecnicamente pela AGM, lotado na SEGEI
+- [Encarregado/DPO](references/entities/encarregado-dpo.md) — apoiado tecnicamente pela AGM, lotado na SEGIN
 - [ETIR](references/entities/etir.md) — tratamento de incidentes, na SECTI
 - [ASC](references/entities/asc.md) — segurança cibernética, na COSIG/SECTI
 - [SECTI](references/entities/secti.md)
