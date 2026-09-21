@@ -9,7 +9,7 @@ fonte_publicacao: "https://www.tre-pr.jus.br/legislacao/compilada/portarias-da-p
 data_publicacao: "28/05/2021"
 data_assinatura: "24/05/2021"
 tags: [norma, curadoria, si-pdp]
-sources: [raw/tre-pr-portaria-247-2021-dpo-lgpd.md]
+sources: [references/raw/tre-pr-portaria-247-2021-dpo-lgpd.md]
 curadoria: completa
 escopo: central-si-pdp
 ---
@@ -34,6 +34,6 @@ escopo: central-si-pdp
 ## Fontes e ressalva temporal
 
 - [Texto compilado oficial](https://www.tre-pr.jus.br/legislacao/compilada/portarias-da-presidencia-tre-pr/2021/portaria-ndeg-247-de?texto=compilado).
-- Fonte histórica preservada: `raw/tre-pr-portaria-247-2021-dpo-lgpd.md`.
+- Fonte histórica preservada: `references/raw/tre-pr-portaria-247-2021-dpo-lgpd.md`.
 - Publicação da 247 indicada pelo portal: DJE-TRE-PR nº 101, de 28/05/2021; assinatura em 24/05/2021.
 - Consulta: 17/09/2026. O portal já anota a revogação parcial, mas informa para a 295 publicação em 18/09/2026 e vigência na publicação. Essa divergência temporal deve ser esclarecida antes de afirmar que seus efeitos já ocorreram em 17/09/2026.

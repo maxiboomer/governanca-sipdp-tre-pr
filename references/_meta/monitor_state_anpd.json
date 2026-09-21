@@ -1,28 +1,28 @@
 {
-  "last_run": "2026-09-14T08:30:20.117925",
+  "last_run": "2026-09-21T08:30:20.542253",
   "detected": false,
   "sources": {
     "balanço_agenda": {
-      "hash": "66ad4f26d62e2123cc8c109ce8a211e148d378824244a646d18d875ea27eaebe",
+      "hash": "595a16418c10172d2ed1c96416063255af25a1aeb58ef98bcdc6e44c3e4b0fed",
       "title": null,
       "items_count": 74,
-      "last_seen": "2026-09-14T08:30:16.412233",
+      "last_seen": "2026-09-21T08:30:17.624968",
       "changed": true,
       "keyword_matches": 0
     },
     "regulamentacoes": {
-      "hash": "1de2de1a67150b5561f5bbd357d6b36c2a87135bd26282ff83f6cf505f8200ba",
+      "hash": "8f449d464dd1a7e0c16cefa5fec6459a44ba74f5a1a4f720a13a29f6fb4943f0",
       "title": null,
       "items_count": 125,
-      "last_seen": "2026-09-14T08:30:18.315467",
+      "last_seen": "2026-09-21T08:30:19.187545",
       "changed": true,
       "keyword_matches": 0
     },
     "noticias": {
-      "hash": "4cbb97012c2dec0969e88cf6d02d246cc424c370c4b89d017c2c33b6270484ad",
+      "hash": "442452f2893f4014817a110175c0772a65b025a04df5a664b44f723182748e5d",
       "title": null,
       "items_count": 72,
-      "last_seen": "2026-09-14T08:30:20.117838",
+      "last_seen": "2026-09-21T08:30:20.542172",
       "changed": true,
       "keyword_matches": 0
     }

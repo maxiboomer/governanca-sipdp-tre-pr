@@ -2,7 +2,7 @@
 title: "Norma Técnica SECTI Nº 006/2026 — Testes de Penetração (Pentest)"
 name: "Norma Técnica SECTI Nº 006/2026"
 created: 2026-09-09
-updated: 2026-09-09
+updated: 2026-09-21
 type: fonte-normativa
 number: 006
 year: 2026
@@ -34,19 +34,99 @@ Publicada em 28/08/2026, pelo Secretário de TI (GILMAR JOSÉ FERNANDES DE DEUS)
 - Integração com o processo de Gestão de Riscos e Gestão de Vulnerabilidades do Tribunal.
 - Portaria CNJ 162/2021, Anexo V (fiscalização de requisitos de segurança sob contratação externa / auditorias cruzadas).
 
-## Pontos-chave (objeto)
+## Estrutura normativa
 
-- **Autorização obrigatória**: nenhum Pentest, interno ou externo, inicia sem autorização formal escrita em *Termo de Autorização e Regras de Engajamento* (RoE), elaborado pela Coordenadoria de Segurança da Informação e aprovado pela SECTI (arts. 5º-6º).
-- **Conteúdo mínimo do Termo** (art. 7º): escopo detalhado (IPs/URLs/sistemas); ativos/técnicas excluídos; metodologia (Black/Grey/White Box); identificação dos pentesters; cronograma/janelas; pontos de contato de emergência; regras de manuseio de dados sensíveis/pessoais (LGPD); comprovação de autorização prévia junto a provedores de nuvem/terceiros.
-- **Frequência definida pelo GSI** (art. 8º): testes obrigatórios em aplicações críticas expostas à internet; antes da entrada em produção de sistemas relevantes; após mudanças significativas na arquitetura de segurança.
-- **Proibições expressas** (art. 9º): DoS/DDoS e indisponibilidade de produção; exfiltração/alteração/destruição de dados reais (especialmente pessoais ou sigilosos); acesso a sistemas de terceiros fora do escopo; engenharia social sem alinhamento prévio com a Administração Superior.
-- **Classificação da informação** (art. 11): relatórios, dados brutos e informações coletadas são **[RESTRITO]** ou **[SECRETO]**, armazenados/transmitidos por meios criptografados.
-- **Contratação externa** (art. 12): exige NDA e comprovação de qualificação técnica.
-- **Responsabilidades** (arts. 13-15): SECTI elabora plano anual e supervisiona; Gestores de Ativos aprovam o Termo e implementam correções; equipe de teste ater-se-á estritamente ao escopo autorizado.
-- **Tratamento de vulnerabilidades** (art. 16): registro e tratamento conforme o processo de Gestão de Riscos e Vulnerabilidades.
-- **Prazos de remediação** (art. 16, §§): por severidade (Crítica/Alta/Média/Baixa); prorrogação mediante justificativa do Gestor do Ativo com anuência do GSI; prazos acordados entre GSIPDP e Gestor do Ativo.
-- **Reteste** (art. 17): após correções, a SECTI valida a eficácia da remediação.
-- **Risco residual** (art. 18): se não corrigível, formalmente documentado e submetido ao **CGSIPDP** para aceitação formal.
+| Capítulo | Arts. | Tema |
+|---|---|---|
+| I — Disposições Preliminares | 1º-2º | Objeto e observância à PSI (TSE 23.763/2026 e TRE-PR 974/2026) |
+| II — Definições e Objetivos | 3º-4º | Glossário (Pentest, RoE, Gestor do Ativo) e 5 objetivos |
+| III — Autorização e Escopo | 5º-8º | Termo de Autorização/RoE obrigatório; conteúdo mínimo; frequência |
+| IV — Regras de Execução e Conduta | 9º-12º | Proibições expressas; interrupção; classificação da informação; contratação externa |
+| V — Responsabilidades | 13º-15º | Papéis: SECTI, Gestores de Ativos, Equipe de Teste |
+| VI — Gestão de Vulnerabilidades e Re-teste | 16º-18º | Prazos por CVSS; prorrogação; validação; risco residual ao CGSIPDP |
+| VII — Disposições Finais | 19º-21º | Casos omissos; revisão; entrada em vigor |
+
+## Obrigações e controles-chave
+
+### Autorização obrigatória (arts. 5º-8º)
+- **Nenhum Pentest inicia sem Termo de Autorização e Regras de Engajamento (RoE)** elaborado pela Coordenadoria de Segurança da Informação e aprovado pela SECTI.
+- O RoE deve conter: escopo detalhado, ativos excluídos, metodologia (Black/Grey/White Box), identificação da equipe, cronograma/janelas, pontos de contato de emergência, regras de manuseio de dados sensíveis (LGPD), e comprovação de autorização de provedores de nuvem/terceiros.
+- **Frequência obrigatória**: aplicações críticas expostas à Internet; antes da entrada em produção; após mudanças significativas na arquitetura de segurança.
+
+### Proibições expressas (art. 9º)
+- DoS/DDoS ou indisponibilidade de produção.
+- Exfiltração, alteração ou destruição de dados reais (especialmente pessoais/sigilosos).
+- Acesso a sistemas de terceiros fora do escopo.
+- Engenharia social sem alinhamento prévio com a Administração Superior.
+
+### Classificação e proteção de dados (art. 11º)
+- Relatórios, dados brutos e informações coletadas: **[RESTRITO]** ou **[SECRETO]**.
+- Armazenamento e transmissão **obrigatoriamente criptografados**.
+- Alinhamento com a LGPD (Lei 13.709/2018).
+
+### Prazos de remediação por CVSS (art. 16, § 1º)
+
+| Criticidade | CVSS | Prazo | Ação |
+|---|---|---|---|
+| Crítica | 9.0-10.0 | **5 dias úteis** | Correção imediata ou controle compensatório urgente |
+| Alta | 7.0-8.9 | **20 dias úteis** | Inclusão prioritária no ciclo de manutenção |
+| Média | 4.0-6.9 | **60 dias úteis** | Planejamento conforme cronograma |
+| Baixa | 0.1-3.9 | Conforme conveniência | Monitoramento ou correção futura |
+
+### Risco residual (art. 18)
+- Vulnerabilidade não corrigível → risco residual **formalmente documentado** e submetido ao **CGSIPDP** para **aceitação formal**.
+- Casos omissos: resolvidos pelo **CGSIPDP** (art. 19º).
+- Revisão da norma: mediante aprovação do **CGSIPDP** (art. 20º).
+
+## Lacunas e pontos de atenção
+
+| # | Lacuna | Risco | Sugestão |
+|---|---|---|---|
+| 1 | **Não define periodicidade mínima obrigatória** — art. 8º diz "frequência definida pelo GSI" mas não estabelece intervalo máximo (ex.: anual) | Testes podem não ser realizados com a frequência necessária | Incluir periodicidade mínima (ex.: anual para sistemas críticos) |
+| 2 | **Prazo de 5 dias úteis para CVSS Crítico é muito curto** em ambiente judicial com equipes de TI sobrecarregadas | Descumprimento do prazo pode gerar passivo operacional | Considerar prazo escalonado (ex.: 10 dias) ou possibilidade de prorrogação imediata |
+| 3 | **Não menciona comunicação de incidentes** — se o Pentest descobrir um incidente em andamento, não há previsão de acionamento da Res. TRE-PR 974/2026 (gestão de incidentes) | Lacuna na integração entre segurança ofensiva e resposta a incidentes | Adicionar obrigação de notificação imediata à Coordenadoria de Segurança da Informação |
+| 4 | **Equipe de teste não tem qualificação mínima definida** — art. 12 exige NDA e "comprovação de qualificação técnica" mas não especifica certificações (ex.: OSCP, CEH, Pentest+) | Risco de teste de baixa qualidade gerar falso senso de segurança | Especificar certificações ou critérios mínimos de qualificação |
+| 5 | **Não integra com o Plano de Continuidade de Negócios (PCN)** — testes em sistemas críticos podem impactar disponibilidade | Indisponibilidade não planejada durante testes | Adicionar exigência de janelas de baixo impacto e coordenação com o PCN |
+
+## Relações normativas no vault
+
+| Norma | Relação | Tipo |
+|---|---|---|
+| **Res. TRE-PR 974/2026** (PSI Local) | Observância obrigatória | Fundamento |
+| **Res. TSE 23.763/2026** (PSI Nacional) | Observância obrigatória | Fundamento |
+| **Res. CNJ 396/2021** (ENSEC-PJ) | Fundamento | Fundamento |
+| **Portaria CNJ 162/2021** (fiscalização segurança) | Complementar — Anexo V | Complemento |
+| **Portaria DG/TSE 444/2021** (norma de termos PSI) | Definições acrescidas | Complemento |
+| **NT SECTI 005/2026** (Linux) | Normas da mesma série | Correlata |
+| **LGPD (Lei 13.709/2018)** | Obrigação transversal nos testes | Fundamento |
+| **Res. CNJ 335/2020** (PDPJ-Br) | Contexto de plataformas digitais | Contextual |
+
+## Impacto para o TRE-PR
+
+### Para a SECTI / Coordenadoria de Segurança da Informação
+- **Novo processo operacional obrigatório**: elaboração de plano anual de Pentest, Termos de Autorização, supervisão de execução, validação de relatórios.
+- **Necessidade de capacitação**: equipe precisa dominar metodologias (Black/Grey/White Box), CVSS, e redação de RoE.
+- **Classificação de informações**: necessidade de implementar [RESTRITO] e [SECRETO] nos relatórios de Pentest.
+
+### Para os Gestores de Ativos (Administrativo, Judiciário, Zonas)
+- **Nova responsabilidade formal**: aprovar Termos de Autorização, elaborar Planos de Ação de remediação, implementar correções nos prazos.
+- **Prazos rígidos**: 5 dias úteis para vulnerabilidades críticas (CVSS 9.0-10.0).
+- **Necessidade de inventário atualizado**: saber quais são os "ativos" sob sua responsabilidade.
+
+### Para o CGSIPDP
+- **Nova competência**: apreciar risco residual de vulnerabilidades não corrigíveis (art. 18) e resolver casos omissos (art. 19).
+- **Necessidade de agenda**: incluir na pauta a apreciação de riscos residuais.
+
+### Para a Auditoria Interna do TRE-PR
+- **Novo objeto de auditoria**: verificar se o plano anual de Pentest está sendo executado, se os prazos de remediação estão sendo cumpridos, se o CGSIPDP está apreciando riscos residuais.
+- **Evidências**: Termos de Autorização, relatórios de vulnerabilidade, Planos de Ação.
+
+## Recomendações
+
+1. **Acionar a SECTI** para elaboração do plano anual de Pentest (obrigação implícita no art. 13, I).
+2. **Sincronizar com a Res. TRE-PR 974/2026** — se ainda não houver, criar processo de comunicação de incidentes durante Pentest.
+3. **Auditoria Interna do TRE-PR** — incluir no plano de auditoria 2026/2027 a verificação da execução do plano anual de Pentest e cumprimento dos prazos de remediação.
+4. **Propor à SECTI** a inclusão de periodicidade mínima obrigatória na próxima revisão da NT (art. 8º).
 
 ## Status normativo
 

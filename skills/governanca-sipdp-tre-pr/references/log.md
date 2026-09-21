@@ -1,4 +1,10 @@
 
+## [2026-09-21] update | Correção NT 006/2026 — remoção de CAVE da análise
+- **Erro**: a seção 6.4 da análise da NT 006/2026 (Pentest) mencionava a CAVE (Comissão de Auditoria da Votação Eletrônica) como auditora de segurança cibernética — incorreto, pois a CAVE tem escopo estritamente eleitoral (urnas/votação), não SI/PDP.
+- **Correção**: seção 6.4 renomeada para "Para a Auditoria Interna do TRE-PR" (órgão correto para auditoria de SI/PDP).
+- Arquivo atualizado: `references/normas/tre-pr-nt-secti-norma-tecnica-006-de-28-de-agosto-de-2026.md`.
+- index.md: verificado (sem alteração necessária).
+
 ## [2026-09-09] ingest | Correção de escopo + integração IN TRE-PR 001/2026 (AcompVot)
 - **Correção de escopo**: a IN 001/2026 (Sistema AcompVot) fora inicialmente mantida "fora do escopo" pelo monitoramento sob premissa FALSA (auditorias de votação "excluídas" — mas Res. 893/2022 e 934/2024 estão curadas como `contextual`). Corrigido e integrado.
 - **Critério de escopo** criado: `references/_meta/criterio-escopo.md` — referência canônica; tecnologia eleitoral de votação/urna entra como `contextual`; verificar norma análoga antes de excluir.

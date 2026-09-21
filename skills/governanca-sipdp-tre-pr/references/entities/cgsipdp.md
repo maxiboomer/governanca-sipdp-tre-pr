@@ -27,14 +27,14 @@ V — SECOFC
 VI — SECPLEI
 VII — SECOM
 VIII — SECJUD
-IX — AGEP
+IX — SEGIN (Secretaria de Gestão Estratégica e Inovação) — *substituiu a AGEP após Res. 982/2026*
 X — ASJUR
 XI — COSIG (Secretário)
 XII — GABOUV
 XIII — Gestor de SI (Suplente)
 XIV — Encarregado de Dados
 XV — LGPD
-XVI — Chefia de Cartério Eleitoral (Capital)
+XVI — Chefia de Cartório Eleitoral (Capital)
 XVII — Chefia de Cartório Eleitoral (Interior)
 
 ## Competências (Res. 932/2024, art. 14)

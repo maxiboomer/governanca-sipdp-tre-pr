@@ -7,7 +7,7 @@ status: pendente-verificacao
 curadoria: completa
 escopo: central-si-pdp
 status_verificacao: "Texto conferido no portal oficial. Revoga apenas o art. 1º da Portaria 247/2021. Vigência na publicação; portal informa DJE nº 213 de 18/09/2026, posterior à consulta em 17/09/2026: ressalva temporal pendente."
-sources: [raw/tre-pr-portaria-presid-295-2026-dpo-encarregada-pdp.md]
+sources: [references/raw/tre-pr-portaria-presid-295-2026-dpo-encarregada-pdp.md]
 tags: [norma, tre-pr, pdp, lgpd, encarregado, dpo]
 ---
 
@@ -41,7 +41,7 @@ Designa a **Secretaria de Gestão Estratégica e Inovação (SEGIN)** como nova 
 ## Fonte e vigência
 
 - [Texto compilado oficial](https://www.tre-pr.jus.br/legislacao/compilada/portarias-da-presidencia-tre-pr/2026/portaria-ndeg-295-de-28-de-agosto-de-2026?texto=compilado).
-- Fonte local: `raw/tre-pr-portaria-presid-295-2026-dpo-encarregada-pdp.md`.
+- Fonte local: `references/raw/tre-pr-portaria-presid-295-2026-dpo-encarregada-pdp.md`.
 - Assinatura: 28/08/2026.
 - Publicação indicada no portal: DJE-TRE-PR nº 213, de **18/09/2026**, p. 03.
 - Consulta: **17/09/2026**. A referência de publicação é posterior à consulta; registrar a informação como consta na fonte, sem afirmar vigência em 28/08/2026 nem efeitos já produzidos em 17/09/2026. A página da 247 já contém a anotação de revogação parcial.
