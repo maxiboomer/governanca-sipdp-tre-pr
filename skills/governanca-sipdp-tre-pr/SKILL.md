@@ -13,10 +13,24 @@ O vocabulário deste domínio está em `CONTEXT.md`. As decisões de desenho est
 `docs/adr/`. **Leia o `CONTEXT.md` antes de usar os termos "norma", "situação",
 "publicação", "curada" e "inventário"** — aqui eles têm sentido fixo.
 
-**Conteúdo:** 187 páginas em `references/normas/` (todas curadas) + `entities`, `concepts`,
+**Conteúdo:** 185 páginas em `references/normas/` (todas curadas) + `entities`, `concepts`,
 `comparisons`, `inventarios`, `sources`; textos integrais em `references/raw/` (com `sha256` para
 detecção de drift). Páginas curadas carregam `confidence: high|medium|low` (high = DJE/DOU
 nomeado; medium = compilado sem DJE; low = monitoramento sem confirmação).
+
+## Regra crítica de publicação — ATUALIZAR O README EM TODO PUSH
+
+**Em todo `git push` para o GitHub, o `README.md` DEVE ser atualizado com as contagens
+correntes** (normas, entities, concepts, raws). Não faça push sem antes rodar a contagem
+e atualizar a seção "Estrutura" do README. Exemplo:
+
+```bash
+cd /root/governanca-sipdp-tre-pr
+# Atualizar README.md com contagens atuais
+git add -A
+git commit -m "..."
+git push origin master
+```
 
 ## Exemplos de uso
 
@@ -97,7 +111,8 @@ Consulte `references/inventarios/normas-tre-pr-tse.md` e
 | PSI local (Res. TRE-PR 974/2026) | `references/normas/psi-tre-pr-974-2026.md` |
 | Comitê de crises cibernéticas (932/2024 e 962/2025) | `references/normas/governanca-e-crises-tre-pr.md` |
 | Estrutura orgânica atual (Res. 982/2026) | `references/normas/tre-pr-resolucao-982-2026-reestruturacao.md` |
-| Gestão da Inovação (Res. 970/2026) | `references/normas/tre-pr-resolucao-970-2026-gestao-inovacao.md` |
+|| Pentest (NT SECTI 006/2026) | `references/normas/tre-pr-nt-secti-norma-tecnica-006-de-28-de-agosto-de-2026.md` |
+|| Linux em estações (NT SECTI 005/2026) | `references/normas/norma-tecnica-secti-005-2026-linux-estacoes.md` |
 | Captação audiovisual / LGPD (Res. 979/2026) | `references/normas/tre-pr-resolucao-979-2026-captacao-audiovisual.md` |
 | Mensagens instantâneas (Res. 983/2026, altera 852/2020) | `references/normas/tre-pr-resolucao-983-2026-altera-852-mensagens.md` |
 | Política Antirretaliação (Res. 946/2025) | `references/normas/tre-pr-resolucao-946-2025-antirretaliacao.md` |
@@ -144,6 +159,6 @@ Esta skill é **acervo e sustentação**: o que a norma diz, se vale, com que pu
 ## Avisos
 
 - Normas revogadas permanecem como histórico, sinalizadas.
-- Todas as 187 páginas de `normas/` estão curadas; o teor exato está em `references/raw/`.
+- Todas as 185 páginas de `normas/` estão curadas; o teor exato está em `references/raw/`.
 - Os Anexos I e II da Res. 982/2026 (cargos e organograma) não constam do acervo.
 - O Guia da MDS (anexo da NT SECTI 002/2026) não consta do acervo; o ato normativo (DJE-TRE-PR nº 052, 23/03/2026, p. 08-09) está em `references/raw/`.
