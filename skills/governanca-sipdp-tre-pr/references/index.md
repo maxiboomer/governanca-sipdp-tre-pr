@@ -133,11 +133,8 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 - [[references/normas/tre-pr-os-07-2017-criptografia|ORDEM DE SERVIÇO Nº 07/2017]]
 - [[references/normas/tre-pr-os-08-2017-mds|ORDEM DE SERVIÇO Nº 08/2017]]
 - [[references/normas/tre-pr-portaria-068-2025-altera-janus|TRE-PR Portaria 068/2025 - Altera Portaria 356 Janus]]
-- [[references/normas/tre-pr-portaria-074-2025-prestacao-pecuniaria-penal|TRE-PR Portaria 074/2025 - Prestacao Pecuniaria Penal]]
-- [[references/normas/tre-pr-portaria-135-2025-prestacoes-pecuniarias|TRE-Pr Portaria 135/2025 - Prestacoes Pecuniarias]]
 - [[references/normas/tre-pr-portaria-196-2026-plantao-judiciario-eleicoes|TRE-PR Portaria 196/2026 - Plantao Judiciario Eleicoes 2026]]
 - [[references/normas/tre-pr-portaria-247-2021-dpo-lgpd|TRE-Pr Portaria 247/2021 - Unidade Encarregada Dados LGPD]]
-- [[references/normas/tre-pr-portaria-251-2024-dispensa-designa-cartorio|TRE-PR Portaria 251/2024 - Dispensa e Designa Chefe de Cartorio]]
 - [[references/normas/tre-pr-portaria-257-2025-estrategia-cloud-computing|TRE-PR Portaria 257/2025 - Estrategia Cloud Computing]]
 - [[references/normas/tre-pr-portaria-356-2024-sistema-janus|TRE-PR R 356/2024 - Sistema Janus Automação Processual]]
 - [[references/normas/tre-pr-portaria-360-2025-altera-74-135-2025|TRE-PR Portaria 360/2025 - Altera Portarias 74-2025 e 135-2025]]
@@ -146,7 +143,6 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 - [[references/normas/tre-pr-portaria-conj-068-2025-janus|PORTARIA N° 068, DE 26 DE FEVEREIRO DE 2025. — Tribunal Regional Eleitoral do Paraná]]
 - [[references/normas/tre-pr-portaria-conj-356-2024-janus|PORTARIA N° 356, DE 12 DE SETEMBRO DE 2024. — Tribunal Regional Eleitoral do Paraná]]
 - [[references/normas/tre-pr-portaria-conj-483-2024-altera-janus|PORTARIA N° 483, DE 12 DE DEZEMBRO DE 2024. — Tribunal Regional Eleitoral do Paraná]]
-- [[references/normas/tre-pr-portaria-dg-050-2025-extingue-enastic|PORTARIA N° 050, DE 03 DE FEVEREIRO DE 2025. — Tribunal Regional Eleitoral do Paraná]]
 - [[references/normas/tre-pr-portaria-dg-086-2026-cgsi-pdp|Portaria DG TRE-PR 086/2026 - CGSIPD]]
 - [[references/normas/tre-pr-portaria-dg-116-2022-revo-287-2021|PORTARIA Nº 116, DE 16 DE MARÇO DE 2022. — Tribunal Regional Eleitoral do Paraná]]
 - [[references/normas/tre-pr-portaria-dg-124-2026-ceti-atribuicoes|PORTARIA N° 124, DE 17 DE MARÇO DE 2026. — CETI (composição e atribuições; revoga 425/2018 e 502/2022)]]
@@ -154,14 +150,8 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 - [[references/normas/tre-pr-portaria-dg-146-2024-gt-premio-cnj|PORTARIA N° 146, DE 08 DE MARÇO DE 2024. — Tribunal Regional Eleitoral do Paraná]]
 - [[references/normas/tre-pr-portaria-dg-171-2026-ans|TRE-PR Portaria DG 171/2026 - Acordo Nivel de Servico]]
 - [[references/normas/tre-pr-portaria-dg-174-2026-pecsc-je|TRE-Pr Portaria DG 174/2026 - PECSC-JE 2026-2027]]
-- [[references/normas/tre-pr-portaria-dg-242-2025-carreira-funcionaria-tempo-parcial|TRE-PR Portaria DG 242/2025 - Carreira Functionaria Tempo Parcial]]
-- [[references/normas/tre-pr-portaria-dg-279-2023-enastic|TRE-PR Portaria DG 279/2023 - Enastic Encontro Nacional TI Inovacao]]
 - [[references/normas/tre-pr-portaria-dg-287-2021-comite-gestao-ti|PORTARIA Nº 287, DE 06 DE DEZEMBRO DE 2021. — Tribunal Regional Eleitoral do Paraná]]
-- [[references/normas/tre-pr-portaria-dg-294-2026-proroga-teletrabalho|TRE-PR Portaria DG 294/2026 - Proroga Teletrabalho servidor]]
 - [[references/normas/tre-pr-portaria-dg-304-2026-revo-631-2024|TRE-PR Portaria DG 304/2026 - Revoca 631/2024 e Designa Tecnica]]
-- [[references/normas/tre-pr-portaria-dg-341-2026-trabalho-hibrido|TRE-Pr Portaria DG 341/2026 - Trabalho Híbrido]]
-- [[references/normas/tre-pr-portaria-dg-365-2026-proroga-teletrabalho-serv|TRE-PR Portaria DG 365/2026 - Proroga Teletrabalho Servidora]]
-- [[references/normas/tre-pr-portaria-dg-388-2026-trabalho-hibrido|TRE-PR Portaria DG 388/2026 - Autoriza Trabalho Hibrido Servidora]]
 - [[references/normas/tre-pr-portaria-dg-425-2018-institui-ceti|PORTARIA Nº 31/2016]]
 - [[references/normas/tre-pr-portaria-dg-429-2024-revo-g76-2022-comite-gestao-ti|TRE-PR Portaria DG 429/2024 - Revoga 476-2022 e Designa Comite Gestao TI]]
 - [[references/normas/tre-pr-portaria-dg-476-2022-revo-116-2022-comite-gestao-ti|TRE-PR Portaria DG 476/2022 - Revoca 116-2022 e Reatua Comite Gestao TI]]
@@ -228,8 +218,8 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 - [[references/comparisons/controle-acesso-in004-2025-vs-2022-vs-2018|Controle de Acesso: IN 004/2025 × IN 004/2022 × IN-DG 2018]]
 
 ## Estatísticas
-- Fontes brutas em `references/raw/`: 192 arquivos raw `.md` (todos com `sha256:`)
-- Páginas curadas em `references/normas/`: 191 (uma para cada norma)
+- Fontes brutas em `references/raw/`: 179 arquivos raw `.md` (todos com `sha256:`)
+- Páginas curadas em `references/normas/`: 178 (após remoção de 13 normas fora de escopo)
 - Entities: 11 · Concepts: 14 · Comparisons: 2 · Inventários: 5 · Sources: 7
 
 ## Normas (novas)
@@ -248,9 +238,6 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 - [[references/normas/anpd-enunciado-01-2023-criancas-adolescentes|Enunciado CD/ANPD 01/2023 — Crianças e Adolescentes]]
 - [[references/normas/tre-pr-resolucao-970-2026-gestao-inovacao|Resolução TRE-PR 970/2026 — Política de Gestão da Inovação]]
 - [[references/normas/tre-pr-resolucao-979-2026-captacao-audiovisual|Resolução TRE-PR 979/2026 — Captação audiovisual (LGPD)]]
-- [[references/normas/tre-pr-resolucao-983-2026-altera-852-mensagens|Resolução TRE-PR 983/2026 — Altera Res. 852/2020 (mensagens)]]
-- [[references/normas/tre-pr-resolucao-946-2025-antirretaliacao|Resolução TRE-PR 946/2025 — Política Antirretaliação]]
-- [[references/normas/tre-pr-resolucao-958-2025-pje|Resolução TRE-PR 958/2025 — Utilização do PJe]]
 - [[references/normas/tre-pr-nt-secti-002-2026-mds|Norma Técnica SECTI 002/2026 — MDS]]
 - [[references/normas/tre-pr-resolucao-940-2024|Resolução TRE-PR 940/2024 — Código de Ética e Integridade]]
 - [[references/normas/tre-pr-in-instrucao-normativa-004-de-28-de-maio-de-2025|Instrução Normativa TRE-PR 004/2025 — Gestão de Identidade e Controle de Acesso]]

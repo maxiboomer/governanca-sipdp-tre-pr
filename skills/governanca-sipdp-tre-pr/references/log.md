@@ -5,6 +5,24 @@
 - Arquivo atualizado: `references/normas/tre-pr-nt-secti-norma-tecnica-006-de-28-de-agosto-de-2026.md`.
 - index.md: verificado (sem alteração necessária).
 
+## [2026-09-21] audit | Limpeza de escopo — remoção de 13 normas fora de escopo
+
+**Critério aplicado:** `references/_meta/criterio-escopo.md`
+
+**Ação:** Removidas 13 normas que não se enquadram no critério de escopo do acervo SI/PDP:
+
+| Categoria | Qtd | Motivo |
+|---|---|---|
+| Pessoal/teletrabalho | 4 | Teletrabalho/híbrido de servidores — excluído pelo critério de pessoal |
+| Pessoal/carreira | 2 | Carreira funcionalária tempo parcial, designação de cartório |
+| Administrativo sem TI | 2 | Prestação pecuniária penal, prestações pecuniárias |
+| Evento não-TI | 2 | ENASTIC — encontro nacional de TI, não é norma |
+| Resoluções fora de escopo | 3 | PJe (processo judicial eletrônico), antirretaliação (recursos humanos), mensagens instantâneas (WhatsApp) |
+
+**Resultado:** 178 normas restantes (195 → 178), 179 raws (192 → 179).
+
+**Arquivos removidos (wiki + raw):** 13 pares = 26 arquivos.
+
 ## [2026-09-09] ingest | Correção de escopo + integração IN TRE-PR 001/2026 (AcompVot)
 - **Correção de escopo**: a IN 001/2026 (Sistema AcompVot) fora inicialmente mantida "fora do escopo" pelo monitoramento sob premissa FALSA (auditorias de votação "excluídas" — mas Res. 893/2022 e 934/2024 estão curadas como `contextual`). Corrigido e integrado.
 - **Critério de escopo** criado: `references/_meta/criterio-escopo.md` — referência canônica; tecnologia eleitoral de votação/urna entra como `contextual`; verificar norma análoga antes de excluir.
