@@ -6,12 +6,16 @@ type: concept
 status: vigente
 status_verificacao: "Video TikTok capturado em 16/09/2026"
 tags: [ia, rag, cag, arquitetura, generativa]
+curadoria: completa
+escopo: contextual
 ---
 
 # RAG vs CAG — Comparativo de arquiteturas de IA Generativa
 
 > Infográfico comparativo entre duas arquiteturas de IA Generativa: RAG (Retrieval-Augmented Generation) e CAG (Context-Augmented Generation).
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## RAG — Retrieval-Augmented Generation
@@ -33,6 +37,8 @@ Loops de qualidade:
 - Valida precisão e viés
 - Ideal para: bases de conhecimento grandes, documentos atualizados, compliance
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## CAG — Context-Augmented Generation
@@ -54,6 +60,8 @@ Loops de qualidade:
 - Enriquece contexto continuamente
 - Ideal: domínio específico, conhecimento proprietário, dados estruturados
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## Comparativo
@@ -67,6 +75,8 @@ Loops de qualidade:
 | **Complexidade** | Alta (embeding, vector search) | Média (merge + injection) |
 | **Custo** | Mais alto (infra vetorial) | Mais baixo (contexto fixo) |
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## Ver também
@@ -74,6 +84,8 @@ Loops de qualidade:
 - [[ia-lgpd-egp-v9]] — Curso "IA e LGPD" (Bloco 2 menciona RAG)
 - [[agentes-ia-roi-business-case]] — ROI de agentes de IA
 
+curadoria: completa
+escopo: contextual
 ---
 
 *Infográfico capturado em 16/09/2026. Fonte: TikTok.*

@@ -6,12 +6,16 @@ type: concept
 status: vigente
 status_verificacao: "Documentos SEI capturados em 16/09/2026"
 tags: [cave, auditoria-externa, tcu, acordo-cooperacao, tre-pr, eleicoes-2026]
+curadoria: completa
+escopo: contextual
 ---
 
 # Auditoria Externa TCU — Acordo de Cooperação Técnica TSE/TCU 51/2026
 
 > Documentação completa do processo de auditoria externa complementar do Tribunal de Contas da União (TCU) sobre o Teste de Integridade das Urnas Eleitorais, formalizada pelo Acordo de Cooperação Técnica TSE nº 51/2026.
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## Documentos que compõem o processo
@@ -24,6 +28,8 @@ tags: [cave, auditoria-externa, tcu, acordo-cooperacao, tre-pr, eleicoes-2026]
 | Plano de Trabalho (Anexo I) | 3763486 | 20/09/2026 | Plano operacional |
 | Despacho CAVE (confirmação de pontos focais) | 0470297 | 16/09/2026 | Resposta TRE-PR |
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## 1. Acordo de Cooperação Técnica TSE/TCU
@@ -58,6 +64,8 @@ Exame de conformidade das fases dos testes de integridade com e sem biometria re
 ### Relatório conclusivo
 Contemplará a análise da regularidade das atividades realizadas pelas CAVEs, na véspera e no dia da eleição.
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## 2. Pontos focais CAVE/TRE-PR confirmados
@@ -69,6 +77,8 @@ Contemplará a análise da regularidade das atividades realizadas pelas CAVEs, n
 - Amoque Benigno de Araújo (amoqueba@tcu.gov.br)
 - Marco Antonio Gomes da Silva (marcogs@tcu.gov.br)
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## 3. Cronograma e marcos
@@ -81,6 +91,8 @@ Contemplará a análise da regularidade das atividades realizadas pelas CAVEs, n
 | 30 dias antes do 1º turno | Início do período de execução |
 | 1º e 2º turnos (dias da eleição) | Realização dos testes com acompanhamento TCU |
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## 4. Orientações importantes
@@ -100,6 +112,8 @@ Contemplará a análise da regularidade das atividades realizadas pelas CAVEs, n
 - Proibida fiscalização externa por fiscais de partidos durante os trabalhos de auditoria de funcionamento das urnas
 - Registros de auditoria devem ser enviados conforme arts. 66-A a 73 da Res. TSE 23.673/2021
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## 5. Legislação de referência
@@ -111,6 +125,8 @@ Contemplará a análise da regularidade das atividades realizadas pelas CAVEs, n
 - **Decreto nº 11.531/2023** — estrutura regulamentadora
 - **Portaria SEGES/MGI nº 3.506/2025**
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## Ver também
@@ -121,6 +137,8 @@ Contemplará a análise da regularidade das atividades realizadas pelas CAVEs, n
 - [[cave-treinamento-2026]] — treinamento CAVE 2026
 - [[tre-pr-resolucao-977-2026-cave-auditoria-votacao]] — Res. TRE-PR 977/2026
 
+curadoria: completa
+escopo: contextual
 ---
 
 *Documentação capturada em 16/09/2026. Fonte: SEI/TSE e SEI/TRE-PR.*

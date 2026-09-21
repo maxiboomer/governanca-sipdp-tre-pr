@@ -100,12 +100,10 @@ Esta classificação é triagem de trabalho, não certificação jurídica. Os d
 - [[references/normas/tre-pr-os-04-2009-equipamentos-informatica]] — status: `não-confirmada`
 - [[references/normas/tre-pr-os-08-2017-mds]] — status: `não-confirmada`
 - [[references/normas/tre-pr-portaria-360-2025-altera-74-135-2025]] — status: `não-confirmada`
-- [[references/normas/tre-pr-portaria-dg-050-2025-extingue-enastic]] — status: `não-confirmada`
 - [[references/normas/tre-pr-portaria-dg-116-2022-revo-287-2021]] — status: `não-confirmada`
 - [[references/normas/tre-pr-portaria-dg-132-2026-revo-os-08-2017-mds]] — status: `não-confirmada`
 - [[references/normas/tre-pr-portaria-dg-171-2026-ans]] — status: `não-confirmada`
 - [[references/normas/tre-pr-portaria-dg-174-2026-pecsc-je]] — status: `não-confirmada`
-- [[references/normas/tre-pr-portaria-dg-279-2023-enastic]] — status: `não-confirmada`
 - [[references/normas/tre-pr-portaria-dg-304-2026-revo-631-2024]] — status: `não-confirmada`
 - [[references/normas/tre-pr-portaria-dg-425-2018-institui-ceti]] — status: `não-confirmada`
 - [[references/normas/tre-pr-portaria-dg-500-2022-ceti-alteracao]] — status: `não-confirmada`
@@ -128,10 +126,7 @@ Esta classificação é triagem de trabalho, não certificação jurídica. Os d
 ## fora-escopo
 
 - [[references/normas/tre-pr-portaria-068-2025-altera-janus]] — status: `não-confirmada`
-- [[references/normas/tre-pr-portaria-074-2025-prestacao-pecuniaria-penal]] — status: `não-confirmada`
-- [[references/normas/tre-pr-portaria-135-2025-prestacoes-pecuniarias]] — status: `não-confirmada`
 - [[references/normas/tre-pr-portaria-196-2026-plantao-judiciario-eleicoes]] — status: `não-confirmada`
-- [[references/normas/tre-pr-portaria-251-2024-dispensa-designa-cartorio]] — status: `não-confirmada`
 - [[references/normas/tre-pr-portaria-356-2024-sistema-janus]] — status: `não-confirmada`
 - [[references/normas/tre-pr-portaria-381-2025-calendario-feriados-2026]] — status: `não-confirmada`
 - [[references/normas/tre-pr-portaria-conj-051-2025-janus]] — status: `não-confirmada`
@@ -139,11 +134,6 @@ Esta classificação é triagem de trabalho, não certificação jurídica. Os d
 - [[references/normas/tre-pr-portaria-conj-356-2024-janus]] — status: `não-confirmada`
 - [[references/normas/tre-pr-portaria-conj-483-2024-altera-janus]] — status: `não-confirmada`
 - [[references/normas/tre-pr-portaria-dg-146-2024-gt-premio-cnj]] — status: `não-confirmada`
-- [[references/normas/tre-pr-portaria-dg-242-2025-carreira-funcionaria-tempo-parcial]] — status: `não-confirmada`
-- [[references/normas/tre-pr-portaria-dg-294-2026-proroga-teletrabalho]] — status: `não-confirmada`
-- [[references/normas/tre-pr-portaria-dg-341-2026-trabalho-hibrido]] — status: `não-confirmada`
-- [[references/normas/tre-pr-portaria-dg-365-2026-proroga-teletrabalho-serv]] — status: `não-confirmada`
-- [[references/normas/tre-pr-portaria-dg-388-2026-trabalho-hibrido]] — status: `não-confirmada`
 - [[references/normas/tre-pr-resolucao-892-2022-acessibilidade-inclusao]] — status: `não-confirmada`
 - [[references/normas/tre-pr-resolucao-893-2022-auditoria-urnas]] — status: `não-confirmada`
 - [[references/normas/tre-pr-resolucao-934-2024-auditoria-urnas]] — status: `não-confirmada`

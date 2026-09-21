@@ -49,7 +49,7 @@ Publicada em 05/08/2026 pela SECTI — **Vigente**.
 ## Relações
 
 [[references/concepts/seguranca-informacao-justica-eleitoral]]
-[[references/concepts/governanca-ti-tre-pr]]
+[[references/concepts/governanca-ti]]
 - [[normas/psi-tre-pr-974-2026|Resolução TRE-PR 974/2026]] (PSI Local)
 - [[normas/psi-tse-23763-2026|Resolução TSE 23.763/2026]] (PSI Nacional)
 - [[normas/tre-pr-nt-secti-norma-tecnica-006-de-28-de-agosto-de-2026|NT SECTI 006/2026]] (Pentest)

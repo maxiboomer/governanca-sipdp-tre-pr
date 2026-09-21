@@ -6,6 +6,8 @@ type: inventario
 status: histórica
 status_verificacao: "Dados operacionais do 2º turno de 2024 — CAVE/TRE-PR"
 tags: [cave, teste-de-integridade, sorteio, eleicoes-2024, tre-pr]
+curadoria: completa
+escopo: contextual
 ---
 
 # Sorteio Teste de Integridade 2T 2024 — CAVE/TRE-PR
@@ -48,6 +50,8 @@ O sorteio seguiu os parâmetros da **Resolução TSE nº 23.673/2021** (auditori
 - [[normas/tse-resolucao-23-673-2021-auditoria-votacao]] — norma do TSE que rege o Teste de Integridade
 - [[inventarios/normas-tre-pr-tse]] — inventário completo de normas TRE-PR/TSE
 
+curadoria: completa
+escopo: contextual
 ---
 
 *Dados operacionais capturados em 11/09/2026. Fonte: grupo CAVE/TRE-PR.*

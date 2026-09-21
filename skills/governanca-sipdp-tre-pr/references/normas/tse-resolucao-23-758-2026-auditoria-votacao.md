@@ -46,8 +46,8 @@ Esta norma altera a **Resolução TSE nº 23.673/2021** para institucionalizar o
 
 ## Relações
 
-[[references/concepts/auditoria-votacao-eletronica]]
-[[references/concepts/teste-integridade]]
+[[references/concepts/auditoria-externa-tcu-2026]]
+[[references/concepts/documentacao-teste-integridade-biometria]]
 - [[references/entities/cgsipdp]]
 - [[normas/tse-resolucao-23-769-2026-auditoria-votacao|Resolução TSE 23.769/2026]] (alteração correlata — prazos)
 - [[normas/tse-resolucao-23-763-2026-psi-nacional|Resolução TSE 23.763/2026]] (PSI Nacional)

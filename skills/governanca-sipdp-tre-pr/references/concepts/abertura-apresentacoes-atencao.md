@@ -6,6 +6,8 @@ type: concept
 status: vigente
 status_verificacao: "Video TikTok capturado em 15/09/2026"
 tags: [comunicacao, apresentacao, atencao, ensino]
+curadoria: completa
+escopo: contextual
 ---
 
 # Abertura de apresentacoes — tecnicas de atencao
@@ -39,6 +41,8 @@ Experimente:
 
 - [[ia-lgpd-egp-v9]] — Bloco 1: Abertura e panorama (curso EGP)
 
+curadoria: completa
+escopo: contextual
 ---
 
 *Video capturado em 15/09/2026. Fonte: TikTok (https://vt.tiktok.com/ZSqVV7SSY/).*

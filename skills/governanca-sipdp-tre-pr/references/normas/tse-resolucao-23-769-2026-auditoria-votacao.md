@@ -35,7 +35,7 @@ Esta norma altera a **Resolução TSE nº 23.673/2021** para modificar os **praz
 
 ## Relações
 
-[[references/concepts/auditoria-votacao-eletronica]]
+[[references/concepts/auditoria-externa-tcu-2026]]
 - [[references/entities/cgsipdp]]
 - [[normas/tse-resolucao-23-758-2026-auditoria-votacao|Resolução TSE 23.758/2026]] (alteração correlata da 23.673)
 - [[normas/tse-resolucao-23-763-2026-psi-nacional|Resolução TSE 23.763/2026]] (PSI Nacional)

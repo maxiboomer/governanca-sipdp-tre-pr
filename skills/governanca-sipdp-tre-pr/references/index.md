@@ -243,6 +243,14 @@ Ver `CLAUDE.md` para convenções. Estrutura: `references/raw/` (fontes imutáve
 - [[references/normas/tre-pr-in-instrucao-normativa-004-de-28-de-maio-de-2025|Instrução Normativa TRE-PR 004/2025 — Gestão de Identidade e Controle de Acesso]]
 - [[references/normas/tre-pr-resolucao-977-2026-cave-auditoria-votacao|Resolução TRE-PR 977/2026 — Comissão de Auditoria da Votação Eletrônica (CAVE), Eleições 2026]]
 
+- [[references/normas/anpd-estudo-preliminar-anonimizacao-pseudonimizacao-2023|ANPD — Estudo Preliminar: Anonimização e Pseudonimização para a Proteção de Dados Pessoais (Minuta do Guia)]]
+- [[references/normas/anpd-estudo-tecnico-anonimizacao-analise-juridica-2023|ANPD — Estudo Técnico: Anonimização de Dados na LGPD (Análise Jurídica)]]
+- [[references/normas/anpd-estudo-tecnico-anonimizacao-processo-risco-tecnicas-2023|ANPD — Estudo Técnico: Anonimização de Dados na LGPD (Processo Baseado em Risco e Técnicas Computacionais)]]
+- [[references/normas/norma-tecnica-secti-005-2026-linux-estacoes|Norma Técnica SECTI Nº 005/2026 — Utilização do Linux em Estações de Trabalho]]
+
+- [[references/normas/tre-pr-portaria-presid-295-2026-dpo-encarregada-pdp|Portaria TRE-PR nº 295/2026 — Unidade Encarregada de Proteção de Dados]]
+- [[references/normas/tse-resolucao-23-758-2026-auditoria-votacao|Resolução TSE 23.758/2026 — Altera a 23.673 (Teste de Integridade com Biometria)]]
+- [[references/normas/tse-resolucao-23-769-2026-auditoria-votacao|Resolução TSE 23.769/2026 — Altera a 23.673 (Relatórios de Auditoria do Sistema de Votação)]]
 ## Metadados
 - [[references/_meta/auditoria-changelog-normas-eleitorais|Changelog — skill analise-normas-eleitorais]]
 - [[references/_meta/classificacao-normas|Classificação das normas]]

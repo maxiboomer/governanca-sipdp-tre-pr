@@ -6,6 +6,8 @@ type: inventario
 status: histórica
 status_verificacao: "Dados operacionais do 1º turno de 2024 — CAVE/TRE-PR"
 tags: [cave, teste-de-integridade, sorteio, eleicoes-2024, tre-pr]
+curadoria: completa
+escopo: contextual
 ---
 
 # Sorteio Teste de Integridade 1T 2024 — CAVE/TRE-PR
@@ -66,6 +68,8 @@ Para as Eleições 2026, a **Res. TRE-PR 977/2026** instituiu a CAVE e designou 
 - [[normas/tre-pr-resolucao-977-2026]] — CAVE 2026 (inventário)
 - [[inventarios/normas-tre-pr-tse]] — inventário completo de normas TRE-PR/TSE
 
+curadoria: completa
+escopo: contextual
 ---
 
 *Dados operacionais capturados em 11/09/2026. Fonte: grupo CAVE/TRE-PR.*

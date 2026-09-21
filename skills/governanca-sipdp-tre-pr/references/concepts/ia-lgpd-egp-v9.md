@@ -9,6 +9,8 @@ tags: [ia, lgpd, egp, capacitacao, setor-publico, roteiro, tre-pr]
 sources: [material-ia-lgpd-egp-v9__2_.docx]
 version: "V9"
 date_captured: 2026-09-15
+curadoria: completa
+escopo: contextual
 ---
 
 # IA e LGPD — Escola de Governo do Paraná (V9, agosto/2026)
@@ -26,6 +28,8 @@ date_captured: 2026-09-15
 | **Instrutor** | Roteiro completo com notas de condução |
 | **Público** | Servidores públicos (municipal, estadual, federal) |
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## Cronograma da sessão (120 minutos)
@@ -39,6 +43,8 @@ date_captured: 2026-09-15
 | 5 | Governança mínima viável + checklist prático | 25 min | 1:30 |
 | 6 | Tira-dúvidas dedicado | 30 min | 2:00 |
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## Bloco 1 — Abertura e panorama (10 min)
@@ -80,6 +86,8 @@ Situar os participantes: por que este tema é urgente para o órgão em que trab
 
 > **Ponto-chave:** toda vez que um sistema processa dado de uma pessoa identificável, a LGPD já se aplica — independente do sistema ser "IA" ou uma planilha comum.
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## Bloco 2 — LGPD aplicada a sistemas de IA (20 min)
@@ -118,6 +126,8 @@ Se a entrada (input) ou a saída (output) do sistema contém informação sobre 
 - A IA consulta a base de dados do próprio órgão em vez de só depender de conhecimento genérico do modelo
 - MGI tem guia prático sobre isso
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## Bloco 3 — Riscos de viés e decisões automatizadas (20 min)
@@ -145,6 +155,8 @@ Mostrar que viés algorítmico é um risco concreto em decisões administrativas
 - **Resolução CNJ nº 615/2025** estrutura IA por níveis de risco e impõe supervisão humana efetiva
 - Art. 20 LGPD e Res. 615/2025 partem de lugares diferentes e chegam ao mesmo ponto: decisão que afeta pessoa precisa de humano responsável no circuito
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## Bloco 4 — RIPD para projetos de IA (15 min)
@@ -185,6 +197,8 @@ O tratamento é de alto risco quando estão presentes, **ao mesmo tempo**, pelo 
 - Avaliação de Impacto Algorítmico — proposta doutrinária de organização da sociedade civil
 - **Não é lei nem norma vigente** — é referência doutrinária
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## Bloco 5 — Governança mínima viável (25 min)
@@ -243,6 +257,8 @@ Entregar uma estrutura que um órgão de pequeno porte consegue implementar sem 
 
 > ⚠️ **Se QUALQUER resposta for "não" ou "não sei"**, RIPD é obrigatório antes de go-live.
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## Bloco 6 — Tira-dúvidas dedicado (30 min)
@@ -258,6 +274,8 @@ Entregar uma estrutura que um órgão de pequeno porte consegue implementar sem 
 - Servidor sobre conflito com chefia → tratar critério técnico em abstrato
 - Pergunta fora do núcleo LGPD → reconhecer o limite e indicar área competente
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## Material de apoio — Referências normativas
@@ -292,6 +310,8 @@ Entregar uma estrutura que um órgão de pequeno porte consegue implementar sem 
 ### [NOVO NA V6] Material complementar adicional
 - Relatório "Avaliação de Impacto Algorítmico para Proteção dos Direitos Fundamentais" — LAPIN, abril/2023
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## Condução em sessão aberta — regras de segurança
@@ -304,6 +324,8 @@ Entregar uma estrutura que um órgão de pequeno porte consegue implementar sem 
 6. **A transmissão é gravada por padrão** — tratar como certeza operacional
 7. **O chat é parte do registro da sessão** — tratar com mesmo cuidado da fala
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## Versionamento
@@ -320,6 +342,8 @@ Entregar uma estrutura que um órgão de pequeno porte consegue implementar sem 
 | V8 | — | Reformulação dos 5 elementos de RIPD, modelo MGI |
 | **V9** | **agosto/2026** | **Status do PL 2338/2023, etapas até sanção** |
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## Ver também
@@ -330,6 +354,8 @@ Entregar uma estrutura que um órgão de pequeno porte consegue implementar sem 
 - [[anpd-resolucao-32-2026-adequacao-ue]] — Res. CD/ANPD 32/2026
 - [[anpd-resolucao-02-2022-pequeno-porte]] — Res. CD/ANPD 2/2022
 
+curadoria: completa
+escopo: contextual
 ---
 
 *Dados capturados em 15/09/2026. Fonte: material-ia-lgpd-egp-v9__2_.docx — Escola de Governo do Paraná. Versão 9, agosto/2026.*

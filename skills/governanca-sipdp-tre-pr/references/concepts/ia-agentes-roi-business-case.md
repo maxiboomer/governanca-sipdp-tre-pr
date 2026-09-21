@@ -6,6 +6,8 @@ type: concept
 status: vigente
 status_verificacao: "Video capturado em 16/09/2026 — estudo Material (500+ lideres tecnicos)"
 tags: [ia, agentes, roi, business-case, custos, investimento]
+curadoria: completa
+escopo: contextual
 ---
 
 # Agentes de IA — ROI e business case
@@ -60,6 +62,8 @@ Sugestão de encaixe: Bloco 5 (Governança mínima viável), após o checklist p
 
 - [[ia-lgpd-egp-v9]] — Material completo do curso "IA e LGPD — EGP"
 
+curadoria: completa
+escopo: contextual
 ---
 
 *Dados capturados em 16/09/2026. Fonte: vídeo TikTok — estudo "Material" com 500+ líderes técnicos.*

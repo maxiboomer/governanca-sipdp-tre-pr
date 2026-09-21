@@ -6,6 +6,8 @@ type: concept
 status: vigente
 status_verificacao: "Grupo WhatsApp Teste Integridade 2026 — AGEL TSE, 15/09/2026"
 tags: [cave, teste-de-integridade, biometria, documentacao, eleicoes-2026]
+curadoria: completa
+escopo: contextual
 ---
 
 # Documentação do Teste de Integridade com Biometria — FAQ
@@ -45,6 +47,8 @@ tags: [cave, teste-de-integridade, biometria, documentacao, eleicoes-2026]
 - [[sorteio-teste-integridade-1t-2024]] — sorteio 1T 2024
 - [[sorteio-teste-integridade-2t-2024]] — sorteio 2T 2024
 
+curadoria: completa
+escopo: contextual
 ---
 
 *Esclarecimento capturado do grupo "Teste Integridade 2026" em 15/09/2026. Fonte: AGEL TSE (Michelle Pimentel).*

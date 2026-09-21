@@ -6,12 +6,16 @@ type: concept
 status: vigente
 status_verificacao: "Reunião de treinamento CAVE/TRE-PR, 16/09/2026"
 tags: [cave, teste-de-integridade, treinamento, procedimentos, tre-pr, operacional]
+curadoria: completa
+escopo: contextual
 ---
 
 # Treinamento CAVE — Teste de Integridade 2026 (procedimentos operacionais)
 
 > Reunião de treinamento dos colaboradores externos que vão atuar no Teste de Integridade das Eleições 2026 — TRE-PR. Captada em 16/09/2026.
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## 1. Apresentação da Comissão
@@ -25,12 +29,16 @@ Membros da CAVE presentes:
 - Diogo (secretário)
 - Marga (Ouvidoria)
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## 2. Fundamento normativo
 
 **Resolução TSE 23.673/2021** — institui a Comissão de Auditoria da Votação Eletrônica em todos os TREs.
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## 3. Modalidades de auditoria
@@ -53,6 +61,8 @@ Membros da CAVE presentes:
 - Lacres apresentados às entidades fiscalizadoras meses antes
 - CAVE tem pouca gerência — apenas orienta e coleta atas
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## 4. Teste de Integridade com Biometria
@@ -64,6 +74,8 @@ Membros da CAVE presentes:
 - Votos **não interferem na votação oficial** — são só para fins de auditoria
 - Urna substituta (contingência) é colocada no lugar da auditada para a votação oficial
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## 5. Sorteio das seções
@@ -73,6 +85,8 @@ Membros da CAVE presentes:
 - Entidades fiscalizadoras podem escolher até 1 seção cada
 - Não havendo entidades suficientes, sorteio complementar
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## 6. Papéis dos colaboradores
@@ -84,6 +98,8 @@ Membros da CAVE presentes:
 
 Designação por mesa e turma (manhã/tarde).
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## 7. Equipes e mesas
@@ -114,6 +130,8 @@ Designação por mesa e turma (manhã/tarde).
 
 > Suplentes designados para cobrir faltas.
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## 8. Cronograma
@@ -125,6 +143,8 @@ Designação por mesa e turma (manhã/tarde).
 | Turma 1 (tarde) | 13h às 15h |
 | Turma 2 (tarde) | 15h às 17h |
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## 9. Regras de segurança
@@ -137,6 +157,8 @@ Designação por mesa e turma (manhã/tarde).
 - Qualquer ocorrência: levantar a mão e chamar membro da CAVE
 - Suplentes para cobrir imprevistos (130 pessoas na equipe)
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## 10. Simulado
@@ -145,6 +167,8 @@ Designação por mesa e turma (manhã/tarde).
 - **Período**: tarde
 - Objetivo: vivência completa do procedimento, ambientes permanecerão montados para treino adicional
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## 11. Vídeo de treinamento
@@ -152,6 +176,8 @@ Designação por mesa e turma (manhã/tarde).
 - Disponibilizado no grupo de WhatsApp dos colaboradores
 - Disponível na intranet do TRE-PR
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## 12. Auditoria externa
@@ -160,6 +186,8 @@ Designação por mesa e turma (manhã/tarde).
 - Empresa contratada acompanhará os procedimentos
 - Orientação: qualquer dúvida ou ocorrência, procurar **apenas membro da CAVE** (não auditores externos)
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## 13. Alterações normativas (Res. 2024 → 2026)
@@ -169,6 +197,8 @@ Designação por mesa e turma (manhã/tarde).
 - Procedimento pode ser feito com mais cautela (6 candidatos no pleito geral)
 - Ambiente de votação simulado (com abstenções)
 
+curadoria: completa
+escopo: contextual
 ---
 
 ## Ver também
@@ -179,6 +209,8 @@ Designação por mesa e turma (manhã/tarde).
 - [[tre-pr-resolucao-977-2026-cave-auditoria-votacao]] — Res. TRE-PR 977/2026 (CAVE 2026)
 - [[tse-resolucao-23-673-2021-auditoria-votacao]] — Res. TSE 23.673/2021
 
+curadoria: completa
+escopo: contextual
 ---
 
 *Dados operacionais capturados em 16/09/2026. Fonte: reunião de treinamento CAVE/TRE-PR.*
