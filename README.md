@@ -1,8 +1,8 @@
 # governanca-sipdp-tre-pr
 
-Acervo de **normas internas do TRE-PR e da Justiça Eleitoral**, mantido pela AGM
-(Assessoria Técnica de Governança e Monitoramento da Segurança da Informação), com uma
-camada curada de Segurança da Informação, Proteção de Dados Pessoais e continuidade.
+Plugin Claude para acervo de **normas internas do TRE-PR e da Justiça Eleitoral** —
+SI (Segurança da Informação), PDP (Proteção de Dados Pessoais), governança de IA,
+continuidade de negócios e auditoria de urnas.
 
 O vocabulário do domínio está em
 [`skills/governanca-sipdp-tre-pr/CONTEXT.md`](./skills/governanca-sipdp-tre-pr/CONTEXT.md).
@@ -15,16 +15,20 @@ O acervo é amplo — normas do TRE-PR de qualquer tema, inclusive sem relação
 recorte de SI/PDP é a camada de curadoria, não o acervo. Ver
 [ADR 0001](./docs/adr/0001-escopo-amplo-com-camada-curada.md).
 
+Critério de escopo canônico: `references/_meta/criterio-escopo.md`.
+
 ## O que tem dentro
 
 - **PSI nacional** — Res. TSE 23.763/2026 (e a revogada 23.644/2021 como histórico)
 - **PSI local** — Res. TRE-PR 974/2026
 - **LGPD/PDP** — fundamentos, framework documental, fases 1–2, maturidade, IA & LGPD, PGPPDP
-- **Estrutura orgânica** — Res. 982/2026, Res. 971/2026, AGM, CGSI/PDP, Encarregado/DPO,
-  ETIR, ASC, SECTI, Comitê de Crises Cibernéticas (932/2024 e 962/2025)
-- **Continuidade** — PGCN (Port. 302/2025) e Protocolo Socioambiental (Port. 056/2026)
-- **Prazos consolidados** e inventários de vigência (TRE-PR/TSE e CNJ)
+- **Pentest** — NT SECTI 006/2026 (Testes de Penetração)
 - **Normas técnicas SECTI** — nuvem, projetos, segurança Linux, desenvolvimento, orçamento
+- **Estrutura orgânica** — Res. 982/2026, Res. 971/2026, CGSI/PDP, CETI, CGTI, CGER, ETIR,
+  SECTI, Comitê de Crises Cibernéticas
+- **Continuidade** — PGCN e Protocolo Socioambiental
+- **Auditoria de urnas** — CAVE (Res. 977/2026), Res. 893/2022, 934/2024
+- **Prazos consolidados** e inventários de vigência (TRE-PR/TSE e CNJ)
 
 ## Estrutura
 
@@ -36,59 +40,29 @@ skills/governanca-sipdp-tre-pr/
 ├── SKILL.md                        entrada da skill
 ├── CONTEXT.md                      glossário do domínio
 ├── SCHEMA.md                       schema do vault
-├── docs/adr/                       decisões de desenho
+├── docs/adr/                       decisões de desenho (5 ADRs)
 └── references/
     ├── index.md                    catálogo (todas as páginas)
-    ├── normas/             176     página por norma
-    ├── entities/             8     AGM, CGSI/PDP, ETIR, ASC, DPO, SECTI, ANPD, CSI
-    ├── concepts/           14      LGPD, continuidade, prazos, governança, monitoramento SECTI
+    ├── normas/            185     página por norma
+    ├── entities/           22     AGM, CGSI/PDP, ETIR, ASC, DPO, SECTI, ANPD, etc.
+    ├── concepts/           22     LGPD, continuidade, prazos, governança, etc.
     ├── comparisons/         2      PSI-JE, controle de acesso
-    ├── inventarios/         4      vigências TRE-PR/TSE e CNJ, lacunas, instrumentos monitorados
+    ├── inventarios/         7      vigências TRE-PR/TSE, CNJ, lacunas, instrumentos
     ├── sources/             7      sínteses por tipo de norma
-    ├── raw/               166      textos das normas (camada imutável, com sha256)
-    └── _meta/               6      matriz de verificação, classificação, pendências, qualidade
+    ├── raw/               186     textos das normas (camada imutável, com sha256)
+    └── _meta/               6      matriz de verificação, classificação, pendências, etc.
 ```
 
 Links internos usam `[[references/...]]` (caminho a partir da raiz da skill); o sync
 reescreve automaticamente os wikilinks `[[wiki/...]]` do vault nesse formato ao publicar.
 
-## Regra de sustentação
-
-Nem o inventário deste acervo nem a planilha da SECTI são autoridade sobre vigência — a
-verdade é a publicação oficial. Ver
-[ADR 0002](./docs/adr/0002-dje-como-fonte-da-verdade.md).
-
-Cada linha do inventário declara a situação da norma e o que a sustenta, em três níveis:
-citação de DJE/DOU (basta para citar em documento) → compilado oficial (serve para
-trabalhar) → nada, e então a situação é **Não confirmada**.
-
-Situação nas páginas de normas (metadados curados):
-- **vigentes:** 136 com publicação oficial localizada ou compilado confirmado
-- **revogadas:** 19 com revogação expressa no texto ou em norma posterior
-- **históricas:** 12 (planos de período encerrado, instrumentos superados)
-- **não-aplicáveis:** 1
-
-> **Nota de integridade (2026-08-26):** a reavaliação completa corrigiu (a) 10 normas de SI/PDP
-> (backup, vulnerabilidades, criptografia, DPO, CGSI/PDP, IA, comitê de crises, NTs) que haviam
-> ficado sem status por grafia variante do campo; (b) a OS 08/2017, que é **revogada** pela
-> Portaria DG 132/2026; (c) planos de período encerrado (PETI, PDTI, PAC, PEI) marcados como
-> históricos; e (d) NTs superadas por versões mais recentes (planejamento orçamentário, plano de
-> riscos). Nenhuma norma permanece sem status.
-
-A matriz completa está em `references/_meta/matriz-verificacao-vigencia.md`.
-
 ## Estado de curadoria — leia antes de confiar
 
-- **167 das 168 páginas de `references/normas/` estão totalmente curadas** — têm síntese,
-  objeto/ementa, obrigações (artigos), status documentado e fonte em `raw/`. A única exceção é uma
-  página marcada como `resumo`. Nenhuma página permanece como stub.
-- Todas as 168 normas têm **status jurídico definitivo** (136 vigentes, 19 revogadas, 12
-  históricas, 1 não-aplicável).
-- **Nem todo arquivo de `raw/` é texto integral.** A Res. 971/2026 está como excerto (~2 KB
-  de um original de ~277 mil caracteres). Os Anexos I e II da Res. 982/2026 não constam.
-- **Lacunas do inventário** mapeadas em
-  `references/inventarios/lacunas-do-inventario.md`: 31 normas do acervo sem linha no
-  inventário TRE-PR/TSE, e Res. CNJ 433/2021 e 646/2025 ausentes do inventário CNJ.
+- **185 páginas de `references/normas/` estão curadas** — têm síntese, objeto/ementa,
+  obrigações (artigos), status documentado e fonte em `raw/`.
+- Todas as normas têm **status jurídico definitivo** (vigentes, revogadas, históricas ou não-aplicáveis).
+- **186 raws** com sha256 para verificação de integridade.
+- **Lacunas do inventário** mapeadas em `references/inventarios/lacunas-do-inventario.md`.
 - **Classificação** em `references/_meta/classificacao-normas.md`.
 
 ## Convenção de caminhos
@@ -98,4 +72,14 @@ Todo link interno é caminho a partir da raiz do plugin
 
 ## Fontes
 
-Normas publicadas nos portais do TRE-PR, TSE e CNJ.
+Normas publicadas nos portais do TRE-PR, TSE e CNJ. O monitoramento semanal verifica novas
+publicações automaticamente (cron job).
+
+## Versionamento
+
+Este repositório segue versionamento semântico. O histórico de mudanças está no
+[CHANGELOG](./CHANGELOG.md) (quando disponível) e no histórico de commits do GitHub.
+
+## Licença
+
+Veja [LICENSE](./LICENSE).
