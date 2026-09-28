@@ -1,30 +1,44 @@
 {
-  "last_run": "2026-09-21T08:30:20.542253",
-  "detected": false,
   "sources": {
-    "balanço_agenda": {
-      "hash": "595a16418c10172d2ed1c96416063255af25a1aeb58ef98bcdc6e44c3e4b0fed",
-      "title": null,
+    "agenda": {
+      "hash": "v3:9bf38626dd300decda51a92ae11beaeb2bbe13e220f66248331dfd010dda72a3",
+      "modificado": "14/08/2026 15:47",
       "items_count": 74,
-      "last_seen": "2026-09-21T08:30:17.624968",
-      "changed": true,
+      "keyword_contexts": [],
+      "last_seen": "2026-09-28T08:43:24.833507",
+      "changed": false,
       "keyword_matches": 0
     },
     "regulamentacoes": {
-      "hash": "8f449d464dd1a7e0c16cefa5fec6459a44ba74f5a1a4f720a13a29f6fb4943f0",
-      "title": null,
+      "hash": "v3:f6971b3429ebab696b2010f43d2779adea87de4604dd298caa3ac545578d3176",
+      "modificado": null,
       "items_count": 125,
-      "last_seen": "2026-09-21T08:30:19.187545",
-      "changed": true,
+      "keyword_contexts": [],
+      "last_seen": "2026-09-28T08:43:26.005181",
+      "changed": false,
       "keyword_matches": 0
     },
     "noticias": {
-      "hash": "442452f2893f4014817a110175c0772a65b025a04df5a664b44f723182748e5d",
-      "title": null,
+      "hash": "v3:d891826a8f588176957fb82435dd73edfe00bc395cc07a228ebeae32823678a8",
+      "modificado": "24/09/2026 19:38",
       "items_count": 72,
-      "last_seen": "2026-09-21T08:30:20.542172",
-      "changed": true,
+      "keyword_contexts": [],
+      "last_seen": "2026-09-28T08:43:27.315068",
+      "changed": false,
       "keyword_matches": 0
+    },
+    "documentos_tecnicos": {
+      "hash": "v3:b895daddd51bdb03104cbb5a9c0339e37d8ddde70052f4b6d8d19ea20c360099",
+      "modificado": null,
+      "items_count": 125,
+      "keyword_contexts": [
+        "anonimização::ológico  n 1 cidades inteligentes estudos técnicos estudo técnico  anonimização de dados na lgpd análise jurídica data n"
+      ],
+      "last_seen": "2026-09-28T08:43:28.809385",
+      "changed": false,
+      "keyword_matches": 1
     }
-  }
+  },
+  "last_run": "2026-09-28T08:43:28.809530",
+  "detected": false
 }
