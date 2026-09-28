@@ -72,6 +72,27 @@ jobs:
                       # links wiki/ no build são defeito: devem ser references/
                       errors.append(f"{f}: link de vault [[{l}]] não reescrito (deve ser references/)")
 
+          # 5. SKILL.md: frontmatter válido para upload (claude.ai) e plugin
+          sk = Path('skills/governanca-sipdp-tre-pr/SKILL.md').read_text()
+          sfm = sk.split('---', 2)[1] if sk.startswith('---') else ''
+          m = re.search(r'^description:\s*(.+)$', sfm, re.M)
+          n = re.search(r'^name:\s*(.+)$', sfm, re.M)
+          if not m:
+              errors.append("SKILL.md: sem description no frontmatter")
+          elif len(m.group(1).strip()) > 1024:
+              errors.append(f"SKILL.md: description com {len(m.group(1).strip())} caracteres (limite 1024)")
+          if not n or not re.fullmatch(r'[a-z0-9-]{1,64}', n.group(1).strip()):
+              errors.append("SKILL.md: name ausente ou fora do padrão [a-z0-9-]{1,64}")
+
+          # 6. contagem de normas coerente nas descrições dos manifests
+          total = len(list((REF / 'normas').glob('*.md')))
+          for label, d in [('plugin.json', pj.get('description', '')),
+                           ('marketplace.json', mj['plugins'][0].get('description', '')),
+                           ('SKILL.md', m.group(1) if m else '')]:
+              for num in re.findall(r'\((\d+) normas', d):
+                  if int(num) != total:
+                      errors.append(f"{label}: descrição diz {num} normas, acervo tem {total}")
+
           if errors:
               print("CI FAILED:")
               for e in errors:
@@ -80,3 +101,19 @@ jobs:
           print(f"OK: plugin v{pv}, {len(list((REF/'normas').glob('*.md')))} normas, "
                 f"frontmatter e index íntegros, zero links wiki/ no build")
           EOF
+
+  plugin-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: claude plugin validate
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          claude plugin validate .
