@@ -16,7 +16,7 @@ Um repositório no GitHub não vira skill sozinho — é preciso instalar.
 **Claude Code** (plugin):
 
 ```
-/plugin marketplace add maxiboomer/governanca-sipdp-tre-parana
+/plugin marketplace add maxiboomer/governanca-sipdp-tre-pr
 /plugin install governanca-sipdp-tre-pr@governanca-sipdp
 ```
 
