@@ -1,7 +1,7 @@
 {
   "name": "governanca-sipdp-tre-pr",
-  "version": "1.5.5",
-  "description": "Acervo de normas internas do TRE-PR, da Justiça Eleitoral e da ANPD (188 normas, 2016–2026, todas curadas) com camada curada de Segurança da Informação, Proteção de Dados e continuidade; inventário de vigências com a publicação que sustenta cada situação; relatório de monitoramento normativo.",
+  "version": "1.5.6",
+  "description": "Acervo de normas internas do TRE-PR, da Justiça Eleitoral e da ANPD (185 normas, 2016–2026, todas curadas) com camada curada de Segurança da Informação, Proteção de Dados e continuidade; inventário de vigências com a publicação que sustenta cada situação; relatório de monitoramento normativo.",
   "author": {
     "name": "Fabio (maxiboomer)"
   },
@@ -16,11 +16,5 @@
     "continuidade",
     "normas",
     "monitoramento"
-  ],
-  "skills": [
-    {
-      "name": "governanca-sipdp-tre-pr",
-      "description": "Acervo de normas internas do TRE-PR, da Justiça Eleitoral e da ANPD (187 normas curadas) com camada curada de SI/PDP e continuidade."
-    }
   ]
 }

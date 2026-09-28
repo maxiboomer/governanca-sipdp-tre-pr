@@ -9,6 +9,21 @@ O vocabulário do domínio está em
 As decisões de desenho estão em [`docs/adr/`](./docs/adr/) (cópia dentro da skill em
 `skills/governanca-sipdp-tre-pr/docs/adr/`).
 
+## Instalação
+
+Um repositório no GitHub não vira skill sozinho — é preciso instalar.
+
+**Claude Code** (plugin):
+
+```
+/plugin marketplace add maxiboomer/governanca-sipdp-tre-parana
+/plugin install governanca-sipdp-tre-pr@governanca-sipdp
+```
+
+**claude.ai / app / Desktop** (skill avulsa): compacte a pasta
+`skills/governanca-sipdp-tre-pr/` em ZIP (a pasta na raiz do ZIP) e envie em
+**Settings → Capabilities → Skills**.
+
 ## Escopo
 
 O acervo é amplo — normas do TRE-PR de qualquer tema, inclusive sem relação com SI/PDP. O
@@ -49,8 +64,8 @@ skills/governanca-sipdp-tre-pr/
     ├── comparisons/         2      PSI-JE, controle de acesso
     ├── inventarios/         7      vigências TRE-PR/TSE, CNJ, lacunas, instrumentos
     ├── sources/             7      sínteses por tipo de norma
-    ├── raw/               186     textos das normas (camada imutável, com sha256)
-    └── _meta/               6      matriz de verificação, classificação, pendências, etc.
+    ├── raw/               185     textos das normas (camada imutável, com sha256) + README
+    └── _meta/              14      matriz de verificação, classificação, scripts, relatórios
 ```
 
 Links internos usam `[[references/...]]` (caminho a partir da raiz da skill); o sync
@@ -61,7 +76,7 @@ reescreve automaticamente os wikilinks `[[wiki/...]]` do vault nesse formato ao 
 - **185 páginas de `references/normas/` estão curadas** — têm síntese, objeto/ementa,
   obrigações (artigos), status documentado e fonte em `raw/`.
 - Todas as normas têm **status jurídico definitivo** (vigentes, revogadas, históricas ou não-aplicáveis).
-- **186 raws** com sha256 para verificação de integridade.
+- **185 raws** (um por norma) com sha256 para verificação de integridade.
 - **Lacunas do inventário** mapeadas em `references/inventarios/lacunas-do-inventario.md`.
 - **Classificação** em `references/_meta/classificacao-normas.md`.
 
@@ -74,6 +89,13 @@ Todo link interno é caminho a partir da raiz do plugin
 
 Normas publicadas nos portais do TRE-PR, TSE e CNJ. O monitoramento semanal verifica novas
 publicações automaticamente (cron job).
+
+## Manutenção — regra de publicação
+
+Em todo push para `master`, atualize as contagens da seção "Estrutura" deste README
+(normas, entities, concepts, raws) e mantenha o mesmo número de normas nas descrições de
+`.claude-plugin/plugin.json` e `.claude-plugin/marketplace.json`. A `description` do
+`SKILL.md` tem limite de 1.024 caracteres — o CI falha acima disso.
 
 ## Versionamento
 

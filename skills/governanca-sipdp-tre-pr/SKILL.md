@@ -1,6 +1,6 @@
 ---
 name: governanca-sipdp-tre-pr
-description: Acervo de normas internas do TRE-PR e da Justiça Eleitoral (187 textos, 2016–2026) e regulamentações da ANPD, mantido pela AGM, com camada curada de Segurança da Informação, Proteção de Dados e continuidade. Use para responder qual norma rege um tema no TRE-PR, se ela está vigente ou foi revogada, com qual publicação isso se sustenta, e quem é a unidade competente — e para fundamentar despacho, parecer, minuta ou nota técnica com citação verificável. Ative ao mencionar PSI, LGPD no TRE-PR, CGSI/PDP, Encarregado/DPO, ETIR, ASC, AGM, SECTI, COSIG, Comitê de Crises Cibernéticas, PGCN, RIPD, RoPA, prazo normativo, vigência, revogação, inventário de normas, Res. TSE 23.763/2026, Res. TRE-PR 974/2026, 962/2025, 982/2026, 971/2026, 959/2025, 932/2024, Portaria DG 086/2026, Portaria 247/2021, Portaria 302/2025, IN-DG, Norma Técnica SECTI, Ordem de Serviço, ANPD, transferência internacional de dados, RTID, encarregado, comunicação de incidente, dosimetria de sanções, legítimo interesse — ou ao pedir "qual norma diz", "isso está revogado?", "quem é competente por", "qual o prazo de", "onde foi publicada".
+description: Acervo de normas internas do TRE-PR, da Justiça Eleitoral e da ANPD (185 normas, 2016–2026), com camada curada de Segurança da Informação, Proteção de Dados e continuidade. Use para saber qual norma rege um tema no TRE-PR, se está vigente ou revogada, em qual publicação isso se sustenta e qual unidade é competente, e para fundamentar despacho, parecer, minuta ou nota técnica com citação verificável. Ative ao mencionar PSI, LGPD no TRE-PR, CGSI/PDP, Encarregado/DPO, ETIR, SECTI, AGM, Comitê de Crises Cibernéticas, PGCN, RIPD, RoPA, IN-DG, Norma Técnica SECTI, ANPD, incidente de segurança, transferência internacional, Res. TSE 23.763/2026 ou Res. TRE-PR 974/2026, 982/2026, 962/2025, 932/2024 — ou ao perguntar "qual norma diz", "isso está revogado?", "quem é competente", "qual o prazo".
 ---
 
 # Acervo Normativo TRE-PR — SI/PDP
@@ -13,24 +13,10 @@ O vocabulário deste domínio está em `CONTEXT.md`. As decisões de desenho est
 `docs/adr/`. **Leia o `CONTEXT.md` antes de usar os termos "norma", "situação",
 "publicação", "curada" e "inventário"** — aqui eles têm sentido fixo.
 
-**Conteúdo:** 185 páginas em `references/normas/` (todas curadas) + `entities`, `concepts`,
+**Conteúdo:** 185 normas em `references/normas/` (todas curadas) + `entities`, `concepts`,
 `comparisons`, `inventarios`, `sources`; textos integrais em `references/raw/` (com `sha256` para
 detecção de drift). Páginas curadas carregam `confidence: high|medium|low` (high = DJE/DOU
 nomeado; medium = compilado sem DJE; low = monitoramento sem confirmação).
-
-## Regra crítica de publicação — ATUALIZAR O README EM TODO PUSH
-
-**Em todo `git push` para o GitHub, o `README.md` DEVE ser atualizado com as contagens
-correntes** (normas, entities, concepts, raws). Não faça push sem antes rodar a contagem
-e atualizar a seção "Estrutura" do README. Exemplo:
-
-```bash
-cd /root/governanca-sipdp-tre-pr
-# Atualizar README.md com contagens atuais
-git add -A
-git commit -m "..."
-git push origin master
-```
 
 ## Exemplos de uso
 
